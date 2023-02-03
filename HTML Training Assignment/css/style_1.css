@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+#username {
+    width: 97%;
+    height: 49px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+#dropdown {
+    width: 97%;
+    height: 49px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    opacity: 70%;
+}
+
+#Textarea1 {
+    width: 97%;
+    height: 49px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    opacity: 70%;
+
+}
+
+#username1 {
+    width: 97%;
+    height: 49px;
+    border: 1px dotted #ADADAD;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.button {
+    top: 1165px;
+    left: 322px;
+    width: 14%;
+    height: 36px;
+    border: 1px solid #C8242F;
+    background: white;
+    color: #C8242F;
+    border-radius: 18px;
+    opacity: 1;
+}
+
+.btncolor {
+    accent-color: red;
+}
+
+#error {
+    top: 1456px;
+    left: 321px;
+    width: 94%;
+    height: 44px;
+    border: 1px solid #FF3535;
+    border-radius: 5px;
+    color: #FF3535;
+    opacity: 1;
+
+}
+
+#info {
+    top: 1456px;
+    left: 321px;
+    width: 94%;
+    height: 44px;
+    border: 1px solid #00B9E1;
+    border-radius: 5px;
+    color: #00B9E1;
+    opacity: 1;
+
+}
+
+#war {
+    top: 1456px;
+    left: 321px;
+    width: 94%;
+    height: 44px;
+    border: 1px solid #FFA800;
+    border-radius: 5px;
+    color: #FFA800;
+    opacity: 1;
+
+}
+
+#succe {
+    top: 1456px;
+    left: 321px;
+    width: 94%;
+    height: 44px;
+    border: 1px solid #00AF27;
+    border-radius: 5px;
+    color: #00AF27;
+    opacity: 1;
+
+}
+
+.button1 {
+    top: 1642px;
+    left: 322px;
+    width: 124px;
+    height: 45px;
+    background: #C8242F 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    color: #FAFAFA;
+    opacity: 1;
+
+}
+
+.button2 {
+    top: 1643px;
+    left: 467px;
+    width: 145px;
+    height: 44px;
+    border: 1px solid #C8242F;
+    background: white;
+    color:#C8242F ;
+    border-radius: 22px;
+    opacity: 1;
+}
+
+@media only screen and (min-width: 360px) and (max-width:576px) {
+    #username {
+        margin-left: 16px;
+        margin-top: 11px;
+    }
+
+    #dropdown {
+        margin-left: 17px;
+    }
+
+    #username1 {
+        margin-left: 17px;
+        margin-top: 10px;
+    }
+
+    .img-fluid {
+        max-width: 30%;
+        height: auto;
+    }
+
+    
+}
+@media screen and (max-width:700px) {
+    .upd{
+        display: none;
+    }
+}

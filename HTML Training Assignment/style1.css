@@ -1,0 +1,189 @@
+body{
+    background-color: #FAFAFA;
+    /* min-height: 100vh; */
+}
+
+#container{
+    display: flex;
+    justify-content: space-between;
+    /* width: 90%; */
+}
+
+.left{
+    margin: 5% 10% 0% 8%;
+    /* width: 40%; */
+}
+
+.left img{
+    border-radius: 50%;
+    /* width: 110%; */
+    width: 576px;
+    border: 20px solid #FFFFFF;
+    box-shadow: 0px 4px 31px #0000000A;
+}
+
+.right{
+    margin-top: 106px;
+}
+/* 
+.top{
+    display: flex;
+    align-items: center;
+}
+
+.top h1{
+    font-size: 40px;
+} */
+
+div img{
+    width: 272px;
+}
+
+.top1{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3E3E3E;
+    font-size: 40px;
+}
+
+span{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #C8242F;
+    }
+
+.login-text{
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #3E3E3E;
+}
+
+input{
+    padding-left: 1rem;
+    margin-bottom: 27px;
+    width: 75%;
+    height: 49px;   
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.forgot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 77%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    background: #C8242F 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 23px;
+    width: 30%;
+    height: 45px;
+    color: #FFFFFF;
+    font-size: 18px;
+    
+}
+
+.forgot p{
+    /* text-align: left; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ADADAD;
+
+}
+
+.bottom{
+    display: flex;
+}
+
+.member{
+    /* text-align: left; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ADADAD;
+}
+
+#reg{
+    /* text-align: left; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #C8242F;
+    margin-left: 5px;
+}
+
+
+@media screen and (max-width: 1250px) and (min-width: 801px)
+{
+    #container{
+        justify-content: space-between;
+    }
+    .left{
+        width: 125%;
+        margin: auto;
+    }
+    .left img{
+        width: 80%;
+        /* margin: auto; */
+    }
+    .right{
+        margin: auto;
+    }
+}
+
+@media screen and (max-width : 800px)
+{
+    #container
+    {
+        flex-direction: column;
+        margin-top: 3rem;
+    }    
+    .left img
+    {
+        width: 90%;
+    }
+    .right
+    {
+        width: 90%;
+        margin: auto;
+        align-items: center;
+    }
+    .top img
+    {   
+        width: 60%;
+        margin-top: 5%;
+        margin-left: 20%;
+    }
+    .top1
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .login-text
+    {
+        text-align: center;
+    }
+    input
+    {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    button{
+        margin-left: 10%;
+        font-size: 13px;
+    }
+    .forgot{
+        width: 85%;
+    }
+    .bottom
+    {
+        justify-content: center;
+    }
+}
+
+
+
+
+
+

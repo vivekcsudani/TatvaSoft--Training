@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="./css/style_1.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+</head>
+
+<body style="background: #FAFAFA;">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg " style="background-color: white;">
+            <div class="container-fluid">
+                <img  id="toggalbtn" src="./images/menu-bar.svg" class="mx-3">
+                <img src="./images/header-logo.svg" class="me-4">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <form class="d-flex" role="search">
+                            <img src="./images/search-icon.svg" style="height:20px;" class="mt-2">
+                            <input class="form-control me-2 border-0" type="search" placeholder="Search" font-family:
+                                Roboto; aria-label="Search">
+                        </form>
+
+                    </ul>
+                    <div class="d-flex">
+                        <i class="me-4 my-auto">
+                            <img src="./images/notification-icon.svg">
+                        </i>
+                        <img src="./images/profile.png ">
+                        <div class="dropdown mx-3 my-auto">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" font-family: Roboto;>
+                                John Doe
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another </a></li>
+                                <li><a class="dropdown-item" href="#">Something </a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-lg-2 col-md-2 d-2 d-xl-block d-xxl-block justify-content-center align-items-center" id="sidebarxyz">
+
+                <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white " style="height: 100%;">
+                    <div class="position-sticky">
+                        <div class="list-group list-group-flush">
+                            <a href="#" class="list-group-item list-group-item-action py-2 ripple border-0 mt-3"
+                                aria-current="true">
+                                <i class="fas fa-tachometer-alt fa-fw me-3">
+                                </i>
+                                <img src="./images/dashboard-default.svg" alt="Dashboard"
+                                    style="height: 20px;width: 20px;">
+                                <span style="font-family: Roboto;">Dashboard</span>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action py-2 ripple border-0 mt-2" style="background-color: #FFF3F4;">
+                                <i class="fas fa-chart-area fa-fw me-3"></i>
+                                <img src="./images/graph-active.svg" alt="Dashboard" style="height: 20px;width: 20px;">
+                                <span style="font-family: Roboto; color: #C8242F;">Analysis</span>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action py-2 ripple border-0 mt-2"><i
+                                    class="fas fa-lock fa-fw me-3"></i>
+                                <img src="./images/inbox-default.svg" alt="Dashboard" style="height: 20px;width: 20px;">
+                                <span style="font-family: Roboto;">Inbox</span></a>
+                            <a href="#" class="list-group-item list-group-item-action py-2 ripple border-0 mt-2"><i
+                                    class="fas fa-chart-line fa-fw me-3"></i>
+                                <img src="./images/clock-default.svg" alt="Dashboard" style="height: 20px;width: 20px;">
+                                <span style="font-family: Roboto;">History</span></a>
+                            <a href="#" class="list-group-item list-group-item-action py-2 ripple border-0 mt-2">
+                                <i class="fas fa-chart-pie fa-fw me-3"></i>
+                                <img src="./images/maintenance-default.svg" alt="Dashboard"
+                                    style="height: 20px;width: 20px;">
+                                <span>Maintenance</span>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action py-2 ripple border-0 mt-2"><i
+                                    class="fas fa-chart-bar fa-fw me-3"></i>
+                                <img src="./images/setting-default.svg" alt="Dashboard"
+                                    style="height: 20px;width: 20px;">
+                                <span style="font-family: Roboto;">Setting</span>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+
+            <div class="col-lg-10 col-sm-12 " id="mainContent">
+                <h2 class="p-3 mt-4" style="font-family: Roboto; font-weight: bold;">Analysis</h2>
+                <div class="col-lg-11 ms-3 me-3">
+                    <div class="card border-0">
+                        <div class="card-body d-flex justify-content-center align-content-center">
+                            
+                            <form action="">
+                                <h5 class="p-3 mt-2" style="font-family: Roboto; font-weight: bold;">One Column</h5>
+                                <input class="p-3 ms-3" id="username" name="Name" type="text" placeholder="Name">
+                                <select id="dropdown" class="form-select mt-3 ms-3" aria-label="Default select example">
+                                    <option selected><span class="opacity-25">Dropdown</span></option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                                <textarea class="form-control p-3 mt-3 ms-3" name="Multiple line" id="Textarea1"
+                                    placeholder="Multiple Line"></textarea>
+                                <h5 class="p-3 mt-4" style="font-family: Roboto; font-weight: bold;">Two Column</h5>
+                                <div class="row ">
+                                    <div class="col-lg-6 col-md-12 col-sm-12">
+                                        <input class="p-3 ms-3 me-3" id="username" name="Name" type="text"
+                                            placeholder="Name">
+                                    </div>
+                                    
+                                    <div class="col-lg-6 col-md-12 col-sm-12">
+                                        <input class="mt-0 p-3 mt-lg-0 mt-md-3 mt-sm-3 ms-md-3 ms-sm-3" id="username" name="Name" type="text" placeholder="Userame">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12 col-sm-12">
+                                        <input class="p-3 ms-3 mt-3" id="username" name="Name" type="password"
+                                            placeholder="Password">
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 col-sm-12">
+                                        <select id="dropdown" class="form-select mt-3 ms-md-3 ms-sm-3"
+                                            aria-label="Default select example">
+                                            <option selected><span class="opacity-25">Dropdown</span></option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <h5 class="p-3 mt-4" style="font-family: Roboto; font-weight: bold;">Three Column</h5>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-12 col-sm-12">
+                                        <input class="p-3 ms-3 " id="username" name="Name" type="text"
+                                            placeholder="Name">
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 col-sm-12">
+                                        <input class="p-3 mt-lg-0  ms-md-3 ms-sm-3 mt-md-3 mt-sm-3" id="username" name="Name" type="text" placeholder="Name">
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 col-sm-12">
+                                        <input class="p-3 mt-lg-0 ms-md-3 ms-sm-3 mt-md-3 mt-sm-3" id="username1" name="Name" type="text" placeholder="Name">
+                                    </div>
+                                </div>
+                                <h5 class="p-3 mt-4" style="font-family: Roboto; font-weight: bold;">Four Column</h5>
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-12 col-sm-12">
+                                        <input class="p-3 ms-3 " id="username" name="Name" type="text"
+                                            placeholder="Name">
+                                    </div>
+                                    <div class="col-lg-3 col-md-12 col-sm-12">
+                                        <input class="p-3 mt-lg-0 ms-md-3 ms-sm-3 mt-md-3 mt-sm-3" id="username" name="Name" type="text" placeholder="Name">
+                                    </div>
+                                    <div class="col-lg-3 col-md-12 col-sm-12">
+                                        <input class="p-3 mt-lg-0 ms-md-3 ms-sm-3 mt-md-3 mt-sm-3" id="username" name="Name" type="text" placeholder="Name">
+                                    </div>
+                                    <div class="col-lg-3 col-md-12 col-sm-12">
+                                        <select id="dropdown" class="form-select mt-lg-0 ms-md-3 ms-sm-3 mt-md-3 mt-sm-3" aria-label="Default select example">
+                                            <option selected><span class="opacity-25">Select</span></option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <h5 class="p-3 mt-4" style="font-family: Roboto; font-weight: bold;">Other Design
+                                    Elements</h5>
+                                <h6 class="ms-3" style="font-family: Roboto; font-weight: bold;">File Upload</h6>
+                                <div class="d-flex">
+                                    <button type="button" class="button mt-4 ms-3">
+                                        <div>
+                                            <img src="./images/cloud-upload-icon.svg" alt="">
+                                            <span class="ms-2 upd">Upload</span>
+                                        </div>
+                                    </button>
+                                    <span class="mt-4 ms-4 p-2 opacity-50" style="font-size: smaller;">No iteams
+                                        Selected</span>
+                                </div>
+                                <h6 class="ms-3 mt-5" style="font-family: Roboto; font-weight: bold;">Radio Button</h6>
+                                <input type="radio" name="radio" value="option1" class="ms-3 mt-3 btncolor">
+                                <label for="option1">Option 1</label>
+                                <input type="radio" name="radio" value="option2" class="ms-3 mt-3 btncolor">
+                                <label for="option2">Option 2</label>
+
+                                <h6 class="ms-3 mt-5" style="font-family: Roboto; font-weight: bold;">Check Box</h6>
+                                <input type="checkbox" name="check1" value="option1" class="ms-3 mt-3 btncolor">
+                                <label for="option1">Option 1</label>
+                                <input type="checkbox" name="check2" value="option2" class="ms-3 mt-3 btncolor">
+                                <label for="option2">Option 2</label>
+
+                                <h6 class="ms-3 mt-5" style="font-family: Roboto; font-weight: bold;">Snackbar</h6>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12 col-sm-12">
+                                        <div class="ms-3 mt-4 row d-flex align-content-center" id="error">
+                                            <img src="./images/error-icon.svg" alt="" class="img-fluid col-1">
+                                            <span class="col-11">This is error message</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 mt-4 col-sm-12">
+                                        <div class=" ms-3 row d-flex align-content-center" id="info">
+                                            <img src="./images/info-icon.svg" alt="" class="img-fluid col-1">
+                                            <span class="col-11">This is an information message!</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12 mt-4 col-sm-12 ">
+                                        <div class="ms-3 row  d-flex align-content-center" id="war">
+                                            <img src="./images/warning-icon.svg" alt="" class="img-fluid col-1">
+                                            <span class="col-11">This is a warning message</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 mt-4 col-sm-12">
+                                        <div class="ms-3 row d-flex align-content-center" id="succe">
+                                            <img src="./images/success-icon.svg" alt="" class="img-fluid col-1">
+                                            <span class="col-11">this is a Success message</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h6 class="ms-3 mt-5" style="font-family: Roboto; font-weight: bold;">Call to action</h6>
+                                <div class="d-flex ms-0">
+                                    
+                                        <button type="button" class="button1 mt-4 border-0 ms-md-3 ms-sm-3">Primary</button>
+                                        <button type="button" class="button2 ms-3 mt-4">Secondary</button>
+
+                                </div>
+                                <h6 class="ms-3 mt-5" style="font-family: Roboto; font-weight: bold;">Tabs</h6>
+                                    <div class="d-flex">
+                                        <p class="mt-3 ms-3 mb-0" style="font-family:Roboto">
+                                            <span
+                                                style="color:  #C8242F; text-underline-offset: 9px; "><u>Tab1</u></span>
+                                        </p>
+                                        <p class="mt-3 ms-3 mb-0" style="font-family:Roboto">
+                                            <span style="opacity: 50%;">Tab2</span>
+                                        </p>
+                                        <p class="mt-3 ms-3 mb-0" style="font-family:Roboto">
+                                            <span style="opacity: 50%;">Tab3</span>
+                                        </p>
+                                    </div>
+                                    <hr class="style1 p-0 m-0 mt-1 ms-3">
+                                    <p class="ms-3 mt-4 mb-5">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                                    </p>
+                                    
+                            </form>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+
+
+    <script src="./js/custom.js"></script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
