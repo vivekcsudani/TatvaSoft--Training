@@ -9,15 +9,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/login.css">
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/login.css">
     <title>Login page</title>
     
 </head>
 <body>
-  <section class="form">
-      <div class ="container-fluid">        
-          <div class="row no-gutters">
+    <div class="container-fluid" style=" padding-right: calc(var(--bs-gutter-x) * .0);
+    padding-left: calc(var(--bs-gutter-x) * .0) !important;">
+        <div class="row no-gutters">
             <div class="col-lg-8">
               <div class="slideshow-container">
 
@@ -39,7 +39,7 @@
 
                 <div class="mySlides fade">
 
-                            <img src="Assets\Grow-Trees-On-the-path-to-environment-sustainability-login.png" style="width:100%;
+                  <img src="Assets\Grow-Trees-On-the-path-to-environment-sustainability-login.png" style="width:100%;
                   object-fit: fill;" class="autoage ">
                   <div class="text"><h3>Sed ut perspiciatis unde omnis iste natus voluptatem.</h3>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias accusantium nam, voluptates magnam minus unde distinctio soluta, placeat ipsum voluptas tempora, reiciendis animi dolore voluptatibus explicabo deserunt necessitatibus eligendi aut.
@@ -115,13 +115,13 @@
             </div>
 
                  <div class="lost">
-                 <a href="forgotpass.html" class="link " style="text-decoration: none;color: #414141;">Lost your password?</a>                
+                 <a  class="link " asp-controller="Home" asp-action="forgot" style="text-decoration: none;color: #414141;">Lost your password?</a>                
                 </div>
 
                 <div class="creat">
                   <p>Don’t have an account?</p>
-                  <p><a href=" " style="text-decoration: none; " class="autoset">Create an account</a></p> 
-                 </div>
+                        <p><a asp-controller="Home" asp-action="registetion" style="text-decoration: none; " class="autoset">Create an account</a></p>
+                    </div>
                 <div class="policy">           
                 <a href="" style="text-decoration: none;color:#414141;">Privacy Policy</a> 
                 </div>     
@@ -130,7 +130,6 @@
 
         </div>
      </div>
-</section>
 
      <script>
         let slideIndex = 0;
@@ -150,7 +149,7 @@
           }
           slides[slideIndex-1].style.display = "block";  
           dots[slideIndex-1].className += " active";
-          setTimeout(showSlides, 3000); // Change image every 6 seconds
+          setTimeout(showSlides, 3000); 
         }
         </script>
      

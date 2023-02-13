@@ -27,6 +27,18 @@ namespace CI_Plateform.Controllers
         {
             return View();
         }
+        public IActionResult forgot()
+        {
+            return View();
+        }
+        public IActionResult newpass()
+        {
+            return View();
+        }
+        public IActionResult registetion()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

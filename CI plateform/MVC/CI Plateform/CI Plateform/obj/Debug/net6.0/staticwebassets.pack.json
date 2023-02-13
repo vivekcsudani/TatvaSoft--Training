@@ -445,8 +445,20 @@
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
+      "Id": "C:\\Users\\DELL\\source\\repos\\CI Plateform\\CI Plateform\\wwwroot\\css\\forgot.css",
+      "PackagePath": "staticwebassets\\css\\forgot.css"
+    },
+    {
       "Id": "C:\\Users\\DELL\\source\\repos\\CI Plateform\\CI Plateform\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\CI Plateform\\CI Plateform\\wwwroot\\css\\newpass.css",
+      "PackagePath": "staticwebassets\\css\\newpass.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\CI Plateform\\CI Plateform\\wwwroot\\css\\registation.css",
+      "PackagePath": "staticwebassets\\css\\registation.css"
     },
     {
       "Id": "C:\\Users\\DELL\\source\\repos\\CI Plateform\\CI Plateform\\wwwroot\\css\\site.css",

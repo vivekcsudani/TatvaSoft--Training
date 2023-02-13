@@ -1,0 +1,144 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>new password</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/newpass.css">
+</head>
+
+<body>
+    <section class="form">
+        <div class="container-fluid no-gutter">
+            <div class="row no-gutters">
+                <div class="col-lg-8">
+                    <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+
+                            <img src="~/Assets/Grow-Trees-On-the-path-to-environment-sustainability-login.png" style="width:100%;object-fit: fill;" class="autoage">
+                            <div class="text">
+                                <h3>Sed ut perspiciatis  unde omnis iste natus     voluptatem.</h3>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias accusantium nam, voluptates magnam minus unde distinctio soluta, placeat ipsum voluptas tempora, reiciendis animi dolore voluptatibus explicabo deserunt necessitatibus eligendi aut.
+                                <div style="text-align:center">
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mySlides fade">
+
+                            <img src="~/Assets/Grow-Trees-On-the-path-to-environment-sustainability-login.png" style="width:100%;object-fit: fill;" class="autoage">
+                            <div class="text">
+                                <h3>Sed ut perspiciatis unde omnis iste natus voluptatem.</h3>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias accusantium nam, voluptates magnam minus unde distinctio soluta, placeat ipsum voluptas tempora, reiciendis animi dolore voluptatibus explicabo deserunt necessitatibus eligendi aut.
+                                <div style="text-align:center">
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mySlides fade">
+
+                            <img src="~/Assets/Grow-Trees-On-the-path-to-environment-sustainability-login.png" style="width:100%;object-fit: fill;" class="autoage">
+                            <div class="text">
+                                <h3>Sed ut perspiciatis unde omnis iste natus voluptatem.</h3>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias accusantium nam, voluptates magnam minus unde distinctio soluta, placeat ipsum voluptas tempora, reiciendis animi dolore voluptatibus explicabo deserunt necessitatibus eligendi aut.
+                                <div style="text-align:center">
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-4 m-auto">
+
+                    <form action="">
+                        <div class="form-row">
+                            <div class="head col-log-8">
+                                <h2>New Password</h2>
+                                <span style="font-size=14px">Please enter a new password in the fields below.</span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-log-8">
+                                <span>New Password</span><br>
+                                <input type="password" placeholder="enter new password" class="form-control mt-1 mb-3 p-2">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-log-8">
+                                <span>Conform New Password</span><br>
+                                <input type="Email" placeholder="enter conform password" class="form-control mt-1 mb-3 p-2">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-log-8">
+                                
+                                <button type="button" class="btn1 mt-3 mb-3"> change password</button>
+                            </div>
+                        </div>
+                        <div class="log">
+                            <a asp-controller="Home" asp-action="login" style=" padding-left: 45%;text-decoration: none;color:#414141">Login</a>
+                        </div>
+                        <div class="policy">
+                            <a href="" style="text-decoration: none;color:#414141">Privacy Policy</a>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 3000); // Change image every 6 seconds
+        }
+    </script>
+
+    
+</body>
+
+</html>

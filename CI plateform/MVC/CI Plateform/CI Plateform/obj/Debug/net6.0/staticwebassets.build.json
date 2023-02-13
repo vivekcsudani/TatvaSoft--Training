@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GfsZYJchrRJNaQ63sjrlTJB3qlcFmxiqapAkwHC2xEw=",
+  "Hash": "gnfg51GjBuzNYRIWZFl3a2m/gepDyUvXzxa/ay1fUAA=",
   "Source": "CI Plateform",
   "BasePath": "_content/CI Plateform",
   "Mode": "Default",
@@ -1921,6 +1921,23 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
+      "Identity": "C:\\Users\\DELL\\source\\repos\\CI Plateform\\CI Plateform\\wwwroot\\css\\forgot.css",
+      "SourceId": "CI Plateform",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\source\\repos\\CI Plateform\\CI Plateform\\wwwroot\\",
+      "BasePath": "_content/CI Plateform",
+      "RelativePath": "css/forgot.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\forgot.css"
+    },
+    {
       "Identity": "C:\\Users\\DELL\\source\\repos\\CI Plateform\\CI Plateform\\wwwroot\\css\\login.css",
       "SourceId": "CI Plateform",
       "SourceType": "Discovered",
@@ -1936,6 +1953,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\login.css"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\source\\repos\\CI Plateform\\CI Plateform\\wwwroot\\css\\newpass.css",
+      "SourceId": "CI Plateform",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\source\\repos\\CI Plateform\\CI Plateform\\wwwroot\\",
+      "BasePath": "_content/CI Plateform",
+      "RelativePath": "css/newpass.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\newpass.css"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\source\\repos\\CI Plateform\\CI Plateform\\wwwroot\\css\\registation.css",
+      "SourceId": "CI Plateform",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\source\\repos\\CI Plateform\\CI Plateform\\wwwroot\\",
+      "BasePath": "_content/CI Plateform",
+      "RelativePath": "css/registation.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\registation.css"
     },
     {
       "Identity": "C:\\Users\\DELL\\source\\repos\\CI Plateform\\CI Plateform\\wwwroot\\css\\site.css",
