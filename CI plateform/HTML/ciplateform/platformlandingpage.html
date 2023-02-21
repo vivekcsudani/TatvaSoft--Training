@@ -3,27 +3,26 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
-    <title>Plateform landing page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
-    <link rel="icon" href="" type="image/x-icon">
-    <link rel="stylesheet" href="ci.css">
+    <link rel="stylesheet" href="plateform.css" />
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet" />
+    <script src='ciplate.js'></script>
 
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+<head>
+    
 </head>
 
-<body>
+<body class="m-auto">
 
     <header class="header">
 
@@ -191,7 +190,7 @@
                                 <div class="">
                                     <button class="navbar-toggler navcollapse" type="button" href="#offcanvasExample2"
                                         data-bs-toggle="offcanvas" aria-controls="offcanvasExample">
-                                        <span class="navbar-toggler-icon"></span>
+                                        <img src="Assets/filter.png" alt="">
                                     </button>
                                 </div>
 
@@ -311,478 +310,704 @@
         
     </header>
 
-    <!-- list and grid -->
 
-    <div class=" container-fluid ">
 
-        <div class="row row3">
-            <div class="col-1"></div>
+<div class=" container history py-4 px-2 d-flex align-items-center">
+    <div class="history_item d-flex mx-2 align-items-center">
+        <div class="item ">
+            <span class="px-1">Tree Plantation</span>
+            <button class="px-1"><img src="Assets/cancel.png" /></button>
+        </div>
+    </div>
+    <div class="history_item d-flex mx-2 align-items-center">
+        <div class="item ">
+            <span class="px-1">Enviroment</span>
+            <button class="px-1"><img src="Assets/cancel.png" /></button>
+        </div>
+    </div>
+    <div class="clear mx-2">
+        <a href="" class=" text-reset text-decoration-none pe-auto">Clear all</a>
+    </div>
+</div>
 
-            <div class="col-10">
-                <div class="row">
-                    <div class="title d-flex pt-2">
-                        <div class="col-6">
-                            <h4>Explore 72 Missions</h4>
-                        </div>
-                        <div class="col-6 d-flex justify-content-md-end align-items-center">
-                            <select name="" id="" aria-placeholder="Sort"
-                                style="width: 138px;height:38px;margin-left: 5px;">
-                                <option value="">sort</option>
-                                <option value="">Action 1</option>
-                                <option value="">Action 1</option>
-                                <option value="">Action 1</option>
-                            </select>
-                            <img src="/Assets/grid.png" style="margin-left: 20px ;height: 35px;width: 40px;">
-                            <img src="/Assets/list.png"" alt="" style=" margin-left: 20px;height: 20px;width: 30px;">
-                        </div>
 
-                    </div>
-                </div>
-                <div class="row mt-3">
-                    
-                        <div class="col-lg-4 col-md-6">
-                            <div class="  card mt-3" >
-                                <div class="location">
-                                    <img src="/Assets/pin1.png" alt="">
-                                    &nbsp Toronto
-                                </div>
-                                <img src="Assets/Grow-Trees-On-the-path-to-environment-sustainability-1.png"
-                                    class="card-img-top" alt="...">
-                                    <div class="positon-relative btn-rounded mx-auto px-3" style="margin-top: -13px;background-color: white;">Environment</div>
-                                <div class="card-body crd">
-                                    <div class="heding p-3">
-                                    <h6 class="card-title">Grow-Trees-On-the-path-to-environment-sustainability</h6>
-                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quidem ratione vel mollitia nostrum deleniti!</p>
-                                    <div class="rating">
-                                        <span>Tree canada</span>
-                                        <div class="star">
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star"></span>
-                                            <span class="fa fa-star"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                        <div class="labline">
-                                            <label class="border  rounded-pill deadlin " > From 10/01/2019 until 25/2/2019 </label>
-                                        </div>
-                                <div class="row  mt-2">
-                                    <div class="col-6  d-flex inform">
-                                        <img src="/Assets/Seats-left.png" alt="" style="width: 25px;height: 25px;margin-top: 4px;">
-                                        <div class="info"><span>10</span>
-                                        <span>Seats-left</span></div>
-                                    </div>
-                                    <div class="col-6 d-flex  inform">
-                                        <img src="/Assets/deadline.png" alt="" style="width: 33px;height: 33px;">
-                                        <div class="info"><span>09-01-2019</span>
-                                        <span>Deadline</span></div>
-                                    </div>
-                                </div>            
-                                <hr class="mt-2 mb-2">  
-                                   <div class="applybtn text-center mt-3 mb-3" >
-                                    
-                                        <a href="#" style= "text-decoration: none;color: #F88634;padding: 5px; "><button class="btn1" style="border: 1px solid #F88634; "><span>Apply</span>  <img src="Assets/right-arrow.png" alt=""></button> </a> 
-                                    
-                                   </div>     
-                                
-                                </div>
-                            </div>
+<div class=" container main">
+    
+<div class="sort_div d-flex justify-content-between align-items-center w-100 p-2 h-100 ">
+        <div class="sort_item d-flex align-items-baseline ">
+            <p>Explore <strong>72 missions</strong></p>
+        </div>
+        <div class="sort_item d-flex ">
+            <div class="dropdown mx-2">
+            <button class="btn dropdown-toggle d-flex " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span>Sort by</span>
+                <img class="mx-1" src="Assets/drop-down.png"/>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
+            <button class="mx-2 d-flex align-items-center justify-content-center p-1 view active " id="list-view-button"><img src="Assets/grid.png" /></button>
+            <button class="mx-2 d-flex align-items-center justify-content-center p-1 view1 " id="grid-view-button"><img src="Assets/list.png" alt=""></button>
+        </div>
+    </div>
+    <div class=" m-2 p-0">
+        <div class="row" id="list">
+            <div class="bg_style col-lg-4 col-md-6">
+                <div class="card d-flex flex-column ">
+                    <div class="ld_view w-100">
+                    <div class="image d-flex justify-content-center w-100 "  >
+                        <img src="Assets/Grow-Trees-On-the-path-to-environment-sustainability.png" class="w-100"/>
+                        <div class="type d-flex justify-content-center">
+                            <span>Environment</span>
                         </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="  card mt-3" >
-                                <img src="Assets/Education-Supplies-for-Every--Pair-of-Shoes-Sold-1.png"
-                                    class="card-img-top" alt="...">
-                                    <div class="positon-relative btn-rounded mx-auto px-3" style="margin-top: -13px;background-color: white;">Children</div>
-                                <div class="card-body crd">
-                                    <div class="heding p-3">
-                                    <h6 class="card-title">Education Supplies for Every Pair of Shoes Sold</h6>
-                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quidem ratione vel mollitia nostrum deleniti!</p>
-                                    <div class="rating">
-                                        <span>Tree canada</span>
-                                        <div class="star">
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star"></span>
-                                            <span class="fa fa-star"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                        <div class="labline">
-                                            <label class="border  rounded-pill deadlin " > From 10/01/2019 until 25/2/2019 </label>
-                                        </div>
-                                <div class="row  mt-2">
-                                    <div class="col-6 d-flex inform">
-                                        <img src="/Assets/Already-volunteered.png" alt="" style="width: 25px;height: 25px;margin-top: 4px;">
-                                        <div class="info"><span>10</span>
-                                        <span>Already volunteered</span></div>
-                                    </div>
-                                    <div class="col-6 d-flex inform">
-                                        <img src="/Assets/deadline.png" alt="" style="width: 33px;height: 33px;">
-                                        <div class="info"><span>09-01-2019</span>
-                                        <span>Deadline</span></div>
-                                    </div>
-                                </div>            
-                                <hr class="mt-2 mb-2">  
-                                   <div class="applybtn text-center mt-3 mb-3" >
-                                    
-                                        <a href="#" style= "text-decoration: none;color: #F88634;padding: 5px; "><button class="btn1" style="border: 1px solid #F88634; "><span>Apply</span>  <img src="Assets/right-arrow.png" alt=""></button> </a> 
-                                    
-                                   </div>     
-                                
-                                </div>
+                        <div class="react d-flex flex-column  justify-content-between align-items-end w-100 h-100">
+                            <div class="d-flex child1">
+                                <img src="Assets/pin.png">
+                                <span>Toronto</span>
                             </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="  card mt-3" >
-                                <img src="Assets/Nourish-the-Children-in--African-country-1.png"
-                                    class="card-img-top" alt="...">
-                                    <div class="positon-relative btn-rounded mx-auto px-3" style="margin-top: -13px;background-color: white;">Nutrition</div>
-                                <div class="card-body crd">
-                                    <div class="heding p-3">
-                                    <h6 class="card-title">Nourish the Children in African country</h6>
-                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quidem ratione vel mollitia nostrum deleniti!</p>
-                                    <div class="rating">
-                                        <span>Tree canada</span>
-                                        <div class="star">
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star"></span>
-                                            <span class="fa fa-star"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                        <div class="labline">
-                                            <label class="border  rounded-pill deadlin " > From 10/01/2019 until 25/2/2019 </label>
-                                        </div>
-                                <div class="row  mt-2">
-                                    <div class="col-6 d-flex inform">
-                                        <img src="/Assets/Seats-left.png" alt="" style="width: 25px;height: 25px;margin-top: 4px;">
-                                        <div class="info"><span>10</span>
-                                        <span>Seats-left</span></div>
-                                    </div>
-                                    <div class="col-6 d-flex inform">
-                                        <img src="/Assets/deadline.png" alt="" style="width: 33px;height: 33px;">
-                                        <div class="info"><span>09-01-2019</span>
-                                        <span>Deadline</span></div>
-                                    </div>
-                                </div>            
-                                <hr class="mt-2 mb-2">  
-                                   <div class="applybtn text-center mt-3 mb-3" >
-                                    
-                                        <a href="#" style= "text-decoration: none;color: #F88634;padding: 5px; "><button class="btn1" style="border: 1px solid #F88634; "><span>Apply</span>  <img src="Assets/right-arrow.png" alt=""></button> </a> 
-                                    
-                                   </div>     
-                                
-                                </div>
+                            <div class="d-flex flex-column child2">
+                                <div><img src="Assets/heart.png"></div>
+                                <div> <img src="Assets/user.png"></div>
                             </div>
-                        </div>
-                    
-            
-                
-                    
-                    <div class="col-lg-4 col-md-6">
-                        <div class="  card mt-3" >
-                            <img src="Assets/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-1.png"
-                                class="card-img-top" alt="...">
-                                <div class="positon-relative btn-rounded mx-auto px-3" style="margin-top: -13px;background-color: white;">Environment</div>
-                            <div class="card-body crd">
-                                <div class="heding p-3">
-                                <h6 class="card-title">CSR-initiative-stands-for-Coffee--and-Farmer-Equity</h6>
-                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quidem ratione vel mollitia nostrum deleniti!</p>
-                                <div class="rating">
-                                    <span>Tree canada</span>
-                                    <div class="star">
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                    </div>
-                                </div>
-                            </div>
-                                    <div class="labline">
-                                        <label class="border  rounded-pill deadlin " > From 10/01/2019 until 25/2/2019 </label>
-                                    </div>
-                            <div class="row  mt-2">
-                                <div class="col-6 d-flex inform">
-                                    <img src="/Assets/Already-volunteered.png" alt="" style="width: 25px;height: 25px;margin-top: 4px;">
-                                    <div class="info"><span>250</span>
-                                    <span>Already volunteered</span></div>
-                                </div>
-                                <div class="col-6 d-flex inform">
-                                    <img src="/Assets/deadline.png" alt="" style="width: 33px;height: 33px;">
-                                    <div class="info"><span>09-01-2019</span>
-                                    <span>Deadline</span></div>
-                                </div>
-                            </div>            
-                            <hr class="mt-2 mb-2">  
-                               <div class="applybtn text-center mt-3 mb-3" >
-                                
-                                    <a href="#" style= "text-decoration: none;color: #F88634;padding: 5px; "><button class="btn1" style="border: 1px solid #F88634; "><span>Apply</span>  <img src="Assets/right-arrow.png" alt=""></button> </a> 
-                                
-                               </div>     
                             
-                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="  card mt-3" >
-                            <img src="Assets/Animal-welfare-_-save-birds-campaign-1.png"
-                                class="card-img-top" alt="...">
-                                <div class="positon-relative btn-rounded mx-auto px-3" style="margin-top: -13px;background-color: white;">Animal</div>
-                            <div class="card-body crd">
-                                <div class="heding p-3">
-                                <h6 class="card-title">Animal-welfare-_-save-birds-campaign</h6>
-                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quidem ratione vel mollitia nostrum deleniti!</p>
-                                <div class="rating">
-                                    <span>Tree canada</span>
-                                    <div class="star">
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                    </div>
-                                </div>
-                            </div>
-                                    <div class="labline">
-                                        <label class="border  rounded-pill deadlin " > From 10/01/2019 until 25/2/2019 </label>
-                                    </div>
-                            <div class="row  mt-2">
-                                <div class="col-6 d-flex inform">
-                                    <img src="/Assets/Seats-left.png" alt="" style="width: 25px;height: 25px;margin-top: 4px;">
-                                    <div class="info"><span>10</span>
-                                    <span>Seats-left</span></div>
-                                </div>
-                                <div class="col-6 d-flex inform">
-                                    <img src="/Assets/deadline.png" alt="" style="width: 33px;height: 33px;">
-                                    <div class="info"><span>09-01-2019</span>
-                                    <span>Deadline</span></div>
-                                </div>
-                            </div>            
-                            <hr class="mt-2 mb-2">  
-                               <div class="applybtn text-center mt-3 mb-3" >
-                                
-                                    <a href="#" style= "text-decoration: none;color: #F88634;padding: 5px; "><button class="btn1" style="border: 1px solid #F88634; "><span>Apply</span>  <img src="Assets/right-arrow.png" alt=""></button> </a> 
-                                
-                               </div>     
-                            
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="  card mt-3" >
-                            <img src="Assets/Plantation-and-Afforestation-programme-1.png"
-                                class="card-img-top" alt="...">
-                                <div class="positon-relative btn-rounded mx-auto px-3" style="margin-top: -13px;background-color: white;">Health</div>
-                            <div class="card-body crd">
-                                <div class="heding p-3">
-                                <h6 class="card-title">Plantation and Afforestation programme</h6>
-                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quidem ratione vel mollitia nostrum deleniti!</p>
-                                <div class="rating">
-                                    <span>Tree canada</span>
-                                    <div class="star">
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                    </div>
-                                </div>
-                            </div>
-                                    <div class="labline">
-                                        <label class="border  rounded-pill deadlin " > From 10/01/2019 until 25/2/2019 </label>
-                                    </div>
-                            <div class="row  mt-2">
-                                <div class="col-6 d-flex inform">
-                                    <img src="/Assets/Seats-left.png" alt="" style="width: 25px;height: 25px;margin-top: 4px;">
-                                    <div class="info"><span>10</span>
-                                    <span>Seats-left</span></div>
-                                </div>
-                                <div class="col-6 d-flex inform">
-                                    <img src="/Assets/deadline.png" alt="" style="width: 33px;height: 33px;">
-                                    <div class="info"><span>09-01-2019</span>
-                                    <span>Deadline</span></div>
-                                </div>
-                            </div>            
-                            <hr class="mt-2 mb-2">  
-                               <div class="applybtn text-center mt-3 mb-3" >
-                                
-                                    <a href="#" style= "text-decoration: none;color: #F88634;padding: 5px; "><button class="btn1" style="border: 1px solid #F88634; "><span>Apply</span>  <img src="Assets/right-arrow.png" alt=""></button> </a> 
-                                
-                               </div>     
-                            
-                            </div>
-                        </div>
-                    </div>
-                
-               
-
-                
                         
-                    <div class="col-lg-4 col-md-6">
-                        <div class="  card mt-3" >
-                            <img src="Assets/Grow-Trees-On-the-path-to-environment-sustainability-1.png"
-                                class="card-img-top" alt="...">
-                                <div class="positon-relative btn-rounded mx-auto px-3" style="margin-top: -13px;background-color: white;">Education</div>
-                            <div class="card-body crd">
-                                <div class="heding p-3">
-                                <h6 class="card-title">Grow-Trees-On-the-path-to-environment-sustainability</h6>
-                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quidem ratione vel mollitia nostrum deleniti!</p>
-                                <div class="rating">
-                                    <span>Tree canada</span>
-                                    <div class="star">
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                    </div>
-                                </div>
-                            </div>
-                                    <div class="labline">
-                                        <label class="border  rounded-pill deadlin " > From 10/01/2019 until 25/2/2019 </label>
-                                    </div>
-                            <div class="row  mt-2">
-                                <div class="col-6 d-flex inform">
-                                    <img src="/Assets/Seats-left.png" alt="" style="width: 25px;height: 25px;margin-top: 4px;">
-                                    <div class="info"><span>10</span>
-                                    <span>Seats-left</span></div>
-                                </div>
-                                <div class="col-6 d-flex inform">
-                                    <img src="/Assets/deadline.png" alt="" style="width: 33px;height: 33px;">
-                                    <div class="info"><span>09-01-2019</span>
-                                    <span>Deadline</span></div>
-                                </div>
-                            </div>            
-                            <hr class="mt-2 mb-2">  
-                            <div class="applybtn text-center mt-3 mb-3" >
-                                
-                                    <a href="#" style= "text-decoration: none;color: #F88634;padding: 5px; "><button class="btn1" style="border: 1px solid #F88634; "><span>Apply</span>  <img src="Assets/right-arrow.png" alt=""></button> </a> 
-                                
-                            </div>     
-                            
+                    </div>
+                    </div>
+                    <div class="ld_view w-100">
+                    <div class="card_inner d-flex flex-column">
+                        <div class="heading">
+                            <h2>Grow Trees – On the path to environment sustainability</h2>
+                        </div>
+                        <div class="describe">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                        </div>
+                        <div class="rating d-flex flex-row justify-content-between align-items-center">
+                            <span> Tree Canada</span>
+                            <div>
+                                <img src="Assets/selected-star.png" alt=""><img src="Assets/selected-star.png" alt=""><img src="Assets/selected-star.png" alt=""><img src="Assets/star-empty.png" alt=""><img src="Assets/star-empty.png" alt="">
                             </div>
                         </div>
+                        
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="  card mt-3" >
-                            <img src="Assets/Education-Supplies-for-Every--Pair-of-Shoes-Sold-1.png"
-                                class="card-img-top" alt="...">
-                                <div class="positon-relative btn-rounded mx-auto px-3" style="margin-top: -13px;background-color: white;">Children</div>
-                            <div class="card-body crd">
-                                <div class="heding p-3">
-                                <h6 class="card-title">Education Supplies for Every Pair of Shoes Sold</h6>
-                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quidem ratione vel mollitia nostrum deleniti!</p>
-                                <div class="rating">
-                                    <span>Tree canada</span>
-                                    <div class="star">
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                    </div>
-                                </div>
-                            </div>
-                                    <div class="labline">
-                                        <label class="border  rounded-pill deadlin " > From 10/01/2019 until 25/2/2019 </label>
-                                    </div>
-                            <div class="row  mt-2">
-                                <div class="col-6 d-flex inform">
-                                    <img src="/Assets/Already-volunteered.png" alt="" style="width: 25px;height: 25px;margin-top: 4px;">
-                                    <div class="info"><span>10</span>
-                                    <span>Already volunteered</span></div>
-                                </div>
-                                <div class="col-6 d-flex inform">
-                                    <img src="/Assets/deadline.png" alt="" style="width: 33px;height: 33px;">
-                                    <div class="info"><span>09-01-2019</span>
-                                    <span>Deadline</span></div>
-                                </div>
-                            </div>            
-                            <hr class="mt-2 mb-2">  
-                            <div class="applybtn text-center mt-3 mb-3" >
-                                
-                                    <a href="#" style= "text-decoration: none;color: #F88634;padding: 5px; "><button class="btn1" style="border: 1px solid #F88634; "><span>Apply</span>  <img src="Assets/right-arrow.png" alt=""></button> </a> 
-                                
-                            </div>     
-                            
-                            </div>
+                    <div class="goal w-100 d-flex justify-content-center">
+                        <hr>
+                        <div class="goal_in d-flex flex-row justify-content-center align-items-center">
+                            <p> From <span>10/01/2019</span> until <span>25/02/2019</span></p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="  card mt-3" >
-                            <img src="Assets/Nourish-the-Children-in--African-country-1.png"
-                                class="card-img-top" alt="...">
-                                <div class="positon-relative btn-rounded mx-auto px-3" style="margin-top: -13px;background-color: white;">Nutrition</div>
-                            <div class="card-body crd">
-                                <div class="heding p-3">
-                                <h6 class="card-title">Nourish the Children in African country</h6>
-                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quidem ratione vel mollitia nostrum deleniti!</p>
-                                <div class="rating">
-                                    <span>Tree canada</span>
-                                    <div class="star">
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                    </div>
-                                </div>
-                            </div>
-                                    <div class="labline">
-                                        <label class="border  rounded-pill deadlin " > From 10/01/2019 until 25/2/2019 </label>
-                                    </div>
-                            <div class="row  mt-2">
-                                <div class="col-6 d-flex inform">
-                                    <img src="/Assets/Seats-left.png" alt="" style="width: 25px;height: 25px;margin-top: 4px;">
-                                    <div class="info"><span>10</span>
-                                    <span>Seats-left</span></div>
-                                </div>
-                                <div class="col-6 d-flex inform">
-                                    <img src="/Assets/deadline.png" alt="" style="width: 33px;height: 33px;">
-                                    <div class="info"><span>09-01-2019</span>
-                                    <span>Deadline</span></div>
-                                </div>
-                            </div>            
-                            <hr class="mt-2 mb-2">  
-                            <div class="applybtn text-center mt-3 mb-3" >
-                                
-                                    <a href="#" style= "text-decoration: none;color: #F88634;padding: 5px; "><button class="btn1" style="border: 1px solid #F88634; "><span>Apply</span>  <img src="Assets/right-arrow.png" alt=""></button> </a> 
-                                
-                            </div>     
-                            
+                    <div class="card_inner2 row">
+                        <div class="item d-flex flex-row justify-content-start align-items-center col ">
+                            <img src="Assets/Seats-left.png">
+                            <div class="subitem d-flex flex-column">
+                                <span>10</span>
+                                <p>Seats Left</p>
                             </div>
                         </div>
+                        <div class="item d-flex flex-row justify-content-start align-items-center col">
+                            <img class="deadline_img" src="Assets/deadline.png">
+                            <div class="subitem d-flex flex-column w-100">
+                                <span>09/01/2019 </span>
+                                <p>Deadline</p>
+                            </div>
+                        </div>  
                     </div>
-                
+                    <hr class="hl">
+                    <div class="button d-flex justify-content-center align-items-center ">
+                        <button class="d-flex flex-row justify-content-between align-items-center"><span>Apply</span> <img src="Assets/right-arrow.png"></button>
+                    </div>
                 </div>
-
-                
-
+                </div>
             </div>
-
-            <div class="col-1"></div>
+            <div class="bg_style col-lg-4 col-md-6">
+                <div class="card d-flex flex-column">
+                    <div class="ld_view w-100">
+                    <div class="image d-flex justify-content-center w-100"  >
+                        <img src="Assets/Education-Supplies-for-Every--Pair-of-Shoes-Sold.png" class="w-100"/>
+                        <div class="type d-flex justify-content-center">
+                            <span>Environment</span>
+                        </div>
+                        <div class="react d-flex flex-column  justify-content-between align-items-end w-100 h-100">
+                            <div class="d-flex child1">
+                                <img src="Assets/pin.png">
+                                <span>Toronto</span>
+                            </div>
+                            <div class="d-flex flex-column child2">
+                                <div><img src="Assets/heart.png"></div>
+                                <div> <img src="Assets/user.png"></div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    </div>
+                    <div class="ld_view w-100">
+                    <div class="card_inner d-flex flex-column">
+                        <div class="heading">
+                            <h2>Grow Trees – On the path to environment sustainability</h2>
+                        </div>
+                        <div class="describe">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                        </div>
+                        <div class="rating d-flex flex-row justify-content-between align-items-center">
+                            <span> Tree Canada</span>
+                            <div>
+                                <img src="Assets/selected-star.png" alt=""><img src="Assets/selected-star.png" alt=""><img src="Assets/selected-star.png" alt=""><img src="Assets/star-empty.png" alt=""><img src="Assets/star-empty.png" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="goal w-100 d-flex justify-content-center">
+                        <hr>
+                        <div class="goal_in d-flex flex-row justify-content-center align-items-center">
+                            <p> From <span>10/01/2019</span> until <span>25/02/2019</span></p>
+                        </div>
+                    </div>
+                    <div class="card_inner2 row">
+                        <div class="item d-flex flex-row justify-content-start align-items-center col ">
+                            <img src="Assets/Already-volunteered.png">
+                            <div class="subitem d-flex flex-column">
+                                <span>10</span>
+                                <p>Seats Left</p>
+                            </div>
+                        </div>
+                        <div class="item d-flex flex-row justify-content-start align-items-center col">
+                            <img class="deadline_img" src="Assets/deadline.png">
+                            <div class="subitem d-flex flex-column w-100">
+                                <span>09/01/2019 </span>
+                                <p>Deadline</p>
+                            </div>
+                        </div>  
+                    </div>
+                    <hr class="hl">
+                    <div class="button d-flex justify-content-center align-items-center ">
+                        <button class="d-flex flex-row justify-content-between align-items-center"><span>Apply</span> <img src="Assets/right-arrow.png"></button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="bg_style col-lg-4 col-md-6">
+                <div class="card d-flex flex-column">
+                    <div class="ld_view w-100">
+                    <div class="image d-flex justify-content-center w-100"  >
+                        <img src="Assets/Nourish-the-Children-in--African-country.png" class="w-100"/>
+                        <div class="type d-flex justify-content-center">
+                            <span>Environment</span>
+                        </div>
+                        <div class="react d-flex flex-column  justify-content-between align-items-end w-100 h-100">
+                            <div class="d-flex child1">
+                                <img src="Assets/pin.png">
+                                <span>Toronto</span>
+                            </div>
+                            <div class="d-flex flex-column child2">
+                                <div><img src="Assets/heart.png"></div>
+                                <div> <img src="Assets/user.png"></div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    </div>
+                    <div class="ld_view w-100">
+                    <div class="card_inner d-flex flex-column">
+                        <div class="heading">
+                            <h2>Grow Trees – On the path to environment sustainability</h2>
+                        </div>
+                        <div class="describe">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                        </div>
+                        <div class="rating d-flex flex-row justify-content-between align-items-center">
+                            <span> Tree Canada</span>
+                            <div>
+                                <img src="Assets/selected-star.png" alt=""><img src="Assets/selected-star.png" alt=""><img src="Assets/selected-star.png" alt=""><img src="Assets/star-empty.png" alt=""><img src="Assets/star-empty.png" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="goal w-100 d-flex justify-content-center">
+                        <hr>
+                        <div class="goal_in d-flex flex-row justify-content-center align-items-center">
+                            <p> <span>Ongoing Opportunity</span></p>
+                        </div>
+                    </div>
+                    <div class="card_inner2 row">
+                        <div class="item d-flex flex-row justify-content-start align-items-center col-5 ">
+                            <img src="Assets/Seats-left.png">
+                            <div class="subitem d-flex flex-column">
+                                <span>10</span>
+                                <p>Seats Left</p>
+                            </div>
+                        </div>
+                        <div class="item d-flex flex-row justify-content-start align-items-center col-7">
+                            <img class="deadline_img" src="Assets/achieved.png">
+                            <div class="subitem d-flex flex-column w-100">
+                                <div class="progress">
+                                    <div class="bar" style="width:35%">
+                                        <p class="percent"></p>
+                                    </div>
+                                </div>
+                                <p>Deadline</p>
+                            </div>
+                        </div>  
+                    </div>
+                    <hr class="hl">
+                    <div class="button d-flex justify-content-center align-items-center ">
+                        <button class="d-flex flex-row justify-content-between align-items-center"><span>Apply</span> <img src="Assets/right-arrow.png"></button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="bg_style col-lg-4 col-md-6">
+                <div class="card d-flex flex-column ">
+                    <div class="ld_view w-100">
+                    <div class="image d-flex justify-content-center w-100 "  >
+                        <img src="Assets/Grow-Trees-On-the-path-to-environment-sustainability.png" class="w-100"/>
+                        <div class="type d-flex justify-content-center">
+                            <span>Environment</span>
+                        </div>
+                        <div class="react d-flex flex-column  justify-content-between align-items-end w-100 h-100">
+                            <div class="d-flex child1">
+                                <img src="Assets/pin.png">
+                                <span>Toronto</span>
+                            </div>
+                            <div class="d-flex flex-column child2">
+                                <div><img src="Assets/heart.png"></div>
+                                <div> <img src="Assets/user.png"></div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    </div>
+                    <div class="ld_view w-100">
+                    <div class="card_inner d-flex flex-column">
+                        <div class="heading">
+                            <h2>Grow Trees – On the path to environment sustainability</h2>
+                        </div>
+                        <div class="describe">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                        </div>
+                        <div class="rating d-flex flex-row justify-content-between align-items-center">
+                            <span> Tree Canada</span>
+                            <div>
+                                <img src="Assets/selected-star.png" alt=""><img src="Assets/selected-star.png" alt=""><img src="Assets/selected-star.png" alt=""><img src="Assets/star-empty.png" alt=""><img src="Assets/star-empty.png" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="goal w-100 d-flex justify-content-center">
+                        <hr>
+                        <div class="goal_in d-flex flex-row justify-content-center align-items-center">
+                            <p> From <span>10/01/2019</span> until <span>25/02/2019</span></p>
+                        </div>
+                    </div>
+                    <div class="card_inner2 row">
+                        <div class="item d-flex flex-row justify-content-start align-items-center col ">
+                            <img src="Assets/Seats-left.png">
+                            <div class="subitem d-flex flex-column">
+                                <span>10</span>
+                                <p>Seats Left</p>
+                            </div>
+                        </div>
+                        <div class="item d-flex flex-row justify-content-start align-items-center col">
+                            <img class="deadline_img" src="Assets/deadline.png">
+                            <div class="subitem d-flex flex-column w-100">
+                                <span>09/01/2019 </span>
+                                <p>Deadline</p>
+                            </div>
+                        </div>  
+                    </div>
+                    <hr class="hl">
+                    <div class="button d-flex justify-content-center align-items-center ">
+                        <button class="d-flex flex-row justify-content-between align-items-center"><span>Apply</span> <img src="Assets/right-arrow.png"></button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="bg_style col-lg-4 col-md-6">
+                <div class="card d-flex flex-column">
+                    <div class="ld_view w-100">
+                    <div class="image d-flex justify-content-center w-100"  >
+                        <img src="Assets//Education-Supplies-for-Every--Pair-of-Shoes-Sold.png" class="w-100"/>
+                        <div class="type d-flex justify-content-center">
+                            <span>Environment</span>
+                        </div>
+                        <div class="react d-flex flex-column  justify-content-between align-items-end w-100 h-100">
+                            <div class="d-flex child1">
+                                <img src="Assets/pin.png">
+                                <span>Toronto</span>
+                            </div>
+                            <div class="d-flex flex-column child2">
+                                <div><img src="Assets/heart.png"></div>
+                                <div> <img src="Assets/user.png"></div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    </div>
+                    <div class="ld_view w-100">
+                    <div class="card_inner d-flex flex-column">
+                        <div class="heading">
+                            <h2>Grow Trees – On the path to environment sustainability</h2>
+                        </div>
+                        <div class="describe">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                        </div>
+                        <div class="rating d-flex flex-row justify-content-between align-items-center">
+                            <span> Tree Canada</span>
+                            <div>
+                                <img src="Assets/selected-star.png" alt=""><img src="Assets/selected-star.png" alt=""><img src="Assets/selected-star.png" alt=""><img src="Assets/star-empty.png" alt=""><img src="Assets/star-empty.png" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="goal w-100 d-flex justify-content-center">
+                        <hr>
+                        <div class="goal_in d-flex flex-row justify-content-center align-items-center">
+                            <p> From <span>10/01/2019</span> until <span>25/02/2019</span></p>
+                        </div>
+                    </div>
+                    <div class="card_inner2 row">
+                        <div class="item d-flex flex-row justify-content-start align-items-center col ">
+                            <img src="Assets/Already-volunteered.png">
+                            <div class="subitem d-flex flex-column">
+                                <span>10</span>
+                                <p>Seats Left</p>
+                            </div>
+                        </div>
+                        <div class="item d-flex flex-row justify-content-start align-items-center col">
+                            <img class="deadline_img" src="Assets/deadline.png">
+                            <div class="subitem d-flex flex-column w-100">
+                                <span>09/01/2019 </span>
+                                <p>Deadline</p>
+                            </div>
+                        </div>  
+                    </div>
+                    <hr class="hl">
+                    <div class="button d-flex justify-content-center align-items-center ">
+                        <button class="d-flex flex-row justify-content-between align-items-center"><span>Apply</span> <img src="Assets/right-arrow.png"></button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="bg_style col-lg-4 col-md-6">
+                <div class="card d-flex flex-column">
+                    <div class="ld_view w-100">
+                    <div class="image d-flex justify-content-center w-100"  >
+                        <img src="Assets/Nourish-the-Children-in--African-country.png" class="w-100"/>
+                        <div class="type d-flex justify-content-center">
+                            <span>Environment</span>
+                        </div>
+                        <div class="react d-flex flex-column  justify-content-between align-items-end w-100 h-100">
+                            <div class="d-flex child1">
+                                <img src="Assets/pin.png">
+                                <span>Toronto</span>
+                            </div>
+                            <div class="d-flex flex-column child2">
+                                <div><img src="Assets/heart.png"></div>
+                                <div> <img src="Assets/user.png"></div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    </div>
+                    <div class="ld_view w-100">
+                    <div class="card_inner d-flex flex-column">
+                        <div class="heading">
+                            <h2>Grow Trees – On the path to environment sustainability</h2>
+                        </div>
+                        <div class="describe">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                        </div>
+                        <div class="rating d-flex flex-row justify-content-between align-items-center">
+                            <span> Tree Canada</span>
+                            <div>
+                                <img src="Assets/selected-star.png" alt=""><img src="Assets/selected-star.png" alt=""><img src="Assets/selected-star.png" alt=""><img src="Assets/star-empty.png" alt=""><img src="Assets/star-empty.png" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="goal w-100 d-flex justify-content-center">
+                        <hr>
+                        <div class="goal_in d-flex flex-row justify-content-center align-items-center">
+                            <p> <span>Ongoing Opportunity</span></p>
+                        </div>
+                    </div>
+                    <div class="card_inner2 row">
+                        <div class="item d-flex flex-row justify-content-start align-items-center col-5 ">
+                            <img src="Assets/Seats-left.png">
+                            <div class="subitem d-flex flex-column">
+                                <span>10</span>
+                                <p>Seats Left</p>
+                            </div>
+                        </div>
+                        <div class="item d-flex flex-row justify-content-start align-items-center col-7">
+                            <img class="deadline_img" src="Assets/achieved.png">
+                            <div class="subitem d-flex flex-column w-100">
+                                <div class="progress">
+                                    <div class="bar" style="width:35%">
+                                        <p class="percent"></p>
+                                    </div>
+                                </div>
+                                <p>Deadline</p>
+                            </div>
+                        </div>  
+                    </div>
+                    <hr class="hl">
+                    <div class="button d-flex justify-content-center align-items-center ">
+                        <button class="d-flex flex-row justify-content-between align-items-center"><span>Apply</span> <img src="Assets/right-arrow.png"></button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="bg_style col-lg-4 col-md-6">
+                <div class="card d-flex flex-column ">
+                    <div class="ld_view w-100">
+                    <div class="image d-flex justify-content-center w-100 "  >
+                        <img src="Assets/Grow-Trees-On-the-path-to-environment-sustainability.png" class="w-100"/>
+                        <div class="type d-flex justify-content-center">
+                            <span>Environment</span>
+                        </div>
+                        <div class="react d-flex flex-column  justify-content-between align-items-end w-100 h-100">
+                            <div class="d-flex child1">
+                                <img src="Assets/pin.png">
+                                <span>Toronto</span>
+                            </div>
+                            <div class="d-flex flex-column child2">
+                                <div><img src="Assets/heart.png"></div>
+                                <div> <img src="Assets/user.png"></div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    </div>
+                    <div class="ld_view w-100">
+                    <div class="card_inner d-flex flex-column">
+                        <div class="heading">
+                            <h2>Grow Trees – On the path to environment sustainability</h2>
+                        </div>
+                        <div class="describe">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                        </div>
+                        <div class="rating d-flex flex-row justify-content-between align-items-center">
+                            <span> Tree Canada</span>
+                            <div>
+                                <img src="Assets/selected-star.png" alt=""><img src="Assets/selected-star.png" alt=""><img src="Assets/selected-star.png" alt=""><img src="Assets/star-empty.png" alt=""><img src="Assets/star-empty.png" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="goal w-100 d-flex justify-content-center">
+                        <hr>
+                        <div class="goal_in d-flex flex-row justify-content-center align-items-center">
+                            <p> From <span>10/01/2019</span> until <span>25/02/2019</span></p>
+                        </div>
+                    </div>
+                    <div class="card_inner2 row">
+                        <div class="item d-flex flex-row justify-content-start align-items-center col ">
+                            <img src="Assets/Seats-left.png">
+                            <div class="subitem d-flex flex-column">
+                                <span>10</span>
+                                <p>Seats Left</p>
+                            </div>
+                        </div>
+                        <div class="item d-flex flex-row justify-content-start align-items-center col">
+                            <img class="deadline_img" src="Assets/deadline.png">
+                            <div class="subitem d-flex flex-column w-100">
+                                <span>09/01/2019 </span>
+                                <p>Deadline</p>
+                            </div>
+                        </div>  
+                    </div>
+                    <hr class="hl">
+                    <div class="button d-flex justify-content-center align-items-center ">
+                        <button class="d-flex flex-row justify-content-between align-items-center"><span>Apply</span> <img src="Assets/right-arrow.png"></button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="bg_style col-lg-4 col-md-6">
+                <div class="card d-flex flex-column">
+                    <div class="ld_view w-100">
+                    <div class="image d-flex justify-content-center w-100"  >
+                        <img src="Assets//Education-Supplies-for-Every--Pair-of-Shoes-Sold.png" class="w-100"/>
+                        <div class="type d-flex justify-content-center">
+                            <span>Environment</span>
+                        </div>
+                        <div class="react d-flex flex-column  justify-content-between align-items-end w-100 h-100">
+                            <div class="d-flex child1">
+                                <img src="Assets/pin.png">
+                                <span>Toronto</span>
+                            </div>
+                            <div class="d-flex flex-column child2">
+                                <div><img src="Assets/heart.png"></div>
+                                <div> <img src="Assets/user.png"></div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    </div>
+                    <div class="ld_view w-100">
+                    <div class="card_inner d-flex flex-column">
+                        <div class="heading">
+                            <h2>Grow Trees – On the path to environment sustainability</h2>
+                        </div>
+                        <div class="describe">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                        </div>
+                        <div class="rating d-flex flex-row justify-content-between align-items-center">
+                            <span> Tree Canada</span>
+                            <div>
+                                <img src="Assets/selected-star.png" alt=""><img src="Assets/selected-star.png" alt=""><img src="Assets/selected-star.png" alt=""><img src="Assets/star-empty.png" alt=""><img src="Assets/star-empty.png" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="goal w-100 d-flex justify-content-center">
+                        <hr>
+                        <div class="goal_in d-flex flex-row justify-content-center align-items-center">
+                            <p> From <span>10/01/2019</span> until <span>25/02/2019</span></p>
+                        </div>
+                    </div>
+                    <div class="card_inner2 row">
+                        <div class="item d-flex flex-row justify-content-start align-items-center col ">
+                            <img src="Assets/Already-volunteered.png">
+                            <div class="subitem d-flex flex-column">
+                                <span>10</span>
+                                <p>Seats Left</p>
+                            </div>
+                        </div>
+                        <div class="item d-flex flex-row justify-content-start align-items-center col">
+                            <img class="deadline_img" src="Assets/deadline.png">
+                            <div class="subitem d-flex flex-column w-100">
+                                <span>09/01/2019 </span>
+                                <p>Deadline</p>
+                            </div>
+                        </div>  
+                    </div>
+                    <hr class="hl">
+                    <div class="button d-flex justify-content-center align-items-center ">
+                        <button class="d-flex flex-row justify-content-between align-items-center"><span>Apply</span> <img src="Assets/right-arrow.png"></button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="bg_style col-lg-4 col-md-6">
+                <div class="card d-flex flex-column">
+                    <div class="ld_view w-100">
+                    <div class="image d-flex justify-content-center w-100"  >
+                        <img src="Assets/Nourish-the-Children-in--African-country.png" class="w-100"/>
+                        <div class="type d-flex justify-content-center">
+                            <span>Environment</span>
+                        </div>
+                        <div class="react d-flex flex-column  justify-content-between align-items-end w-100 h-100">
+                            <div class="d-flex child1">
+                                <img src="Assets/pin.png">
+                                <span>Toronto</span>
+                            </div>
+                            <div class="d-flex flex-column child2">
+                                <div><img src="Assets/heart.png"></div>
+                                <div> <img src="Assets/user.png"></div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    </div>
+                    <div class="ld_view w-100">
+                    <div class="card_inner d-flex flex-column">
+                        <div class="heading">
+                            <h2>Grow Trees – On the path to environment sustainability</h2>
+                        </div>
+                        <div class="describe">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                        </div>
+                        <div class="rating d-flex flex-row justify-content-between align-items-center">
+                            <span> Tree Canada</span>
+                            <div>
+                                <img src="Assets/selected-star.png" alt=""><img src="Assets/selected-star.png" alt=""><img src="Assets/selected-star.png" alt=""><img src="Assets/star-empty.png" alt=""><img src="Assets/star-empty.png" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="goal w-100 d-flex justify-content-center">
+                        <hr>
+                        <div class="goal_in d-flex flex-row justify-content-center align-items-center">
+                            <p> <span>Ongoing Opportunity</span></p>
+                        </div>
+                    </div>
+                    <div class="card_inner2 row">
+                        <div class="item d-flex flex-row justify-content-start align-items-center col-5 ">
+                            <img src="Assets/Seats-left.png">
+                            <div class="subitem d-flex flex-column">
+                                <span>10</span>
+                                <p>Seats Left</p>
+                            </div>
+                        </div>
+                        <div class="item d-flex flex-row justify-content-start align-items-center col-7">
+                            <img class="deadline_img" src="Assets/achieved.png">
+                            <div class="subitem d-flex flex-column w-100">
+                                <div class="progress">
+                                    <div class="bar" style="width:35%">
+                                        <p class="percent"></p>
+                                    </div>
+                                </div>
+                                <p>Deadline</p>
+                            </div>
+                        </div>  
+                    </div>
+                    <hr class="hl">
+                    <div class="button d-flex justify-content-center align-items-center ">
+                        <button class="d-flex flex-row justify-content-between align-items-center"><span>Apply</span> <img src="Assets/right-arrow.png"></button>
+                    </div>
+                </div>
+                </div>
+            </div>
         </div>
-        <hr>
     </div>
-    <div class="container-fluid">
-        <div class="row ">
-            <div class="col-md-1">
-
-            </div>
-            <div class="col-md-10 mb-3">
-            <a href="#" style="color: #414141; "> Privacy Policy</a>            
-            </div>
-            <div class="col-md-1">
-
-            </div>
-
-        </div>
+    <div class="page_nav d-flex justify-content-center">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <img src="Assets/previous.png">
+                    </a>
+                  </li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="left">
+                  <img src="Assets/left.png">
+                </a>
+              </li>
+              <li class="page-item active"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">4</a></li>
+              <li class="page-item"><a class="page-link" href="#">5</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="right">
+                    <img src="Assets/right-arrow1.png">
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <img src="Assets/next.png">
+                </a>
+              </li>
+            </ul>
+          </nav>
     </div>
+   
+</div>
+<hr style="padding: 0 !important;margin: 0 !important;width: 100% ;color: #757575;">
+<footer class="container">
+    <a href=""><h6>Privacy Policy</h6></a>
+</footer>
 </body>
-
 </html>

@@ -143,17 +143,29 @@
     border-radius: 205px;
     width: 89px;
 }
-.location{
+.location {
     position: absolute;
-    background-color: #000000b3;
-    border-radius: 25px;
-    width: 90px;
-    padding-left: 4px;
-    text-align: end;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.511);
+    padding: 8px 15px;
+    border-radius: 20px;
 }
-.location img {
-    position: relative;
-    width: 12px;
+.Favourite {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.511);
+    padding: 10px 12px;
+    border-radius: 50%;
+}
+.Recommend {
+    position: absolute;
+    top: 110px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.511);
+    padding: 10px 12px;
+    border-radius: 50%;
 }
 @media (max-width:800px) {
     .Profile span,.Profile .ic-down{display: none;} 
@@ -171,7 +183,35 @@
     .displayf{
         padding-left: 0px;
     }
+    .line{
+        border-left: none;
+    }
     
+}
+@media only screen and (max-width:766px){
+    .Favourite{
+        top:190px
+    }
+    .Recommend{
+        top:250px
+    }
+
+}
+@media only screen and (max-width:620px){
+    .Favourite{
+        top:135px
+    }
+    .Recommend{
+        top:200px
+    }
+}
+@media only screen and (max-width:620px){
+.Favourite{
+    top:60px
+}
+.Recommend{
+    top:110px
+}
 }
 @media only screen and (max-width:400px) {
     #searc{
@@ -180,11 +220,13 @@
     
 }
 
-@media only screen and (max-width:990px){
-    .line{
-        border-left: none;
+@media (max-width:667px) {
+    .sort_item{
+        display: none;
     }
+    
 }
+
 /* @media only screen and (max-width:920px) {
     .rating{
         flex-direction: column;
@@ -211,3 +253,18 @@
     border-radius: 205px;
     width: 171px;
 }
+
+.top{
+    font-size: 12px;
+    align-items: center;
+    
+}
+.top img{
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+}
+.star{
+    justify-content: end;
+}
+

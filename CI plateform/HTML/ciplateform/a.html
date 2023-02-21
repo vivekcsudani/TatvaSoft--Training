@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
-    <title>Home Page</title>
+    <title>Plateform landing page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
@@ -15,6 +17,8 @@
         crossorigin="anonymous"></script>
     <link rel="icon" href="" type="image/x-icon">
     <link rel="stylesheet" href="ci.css">
+    
+    <link rel="stylesheet" href="ciplate.js">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
@@ -191,7 +195,7 @@
                                 <div class="">
                                     <button class="navbar-toggler navcollapse" type="button" href="#offcanvasExample2"
                                         data-bs-toggle="offcanvas" aria-controls="offcanvasExample">
-                                        <span class="navbar-toggler-icon"></span>
+                                        <img src="Assets/filter.png" alt="">
                                     </button>
                                 </div>
 
@@ -332,22 +336,29 @@
                                 <option value="">Action 1</option>
                                 <option value="">Action 1</option>
                             </select>
-                            <img src="/Assets/grid.png" style="margin-left: 20px ;height: 35px;width: 40px;">
-                            <img src="/Assets/list.png"" alt="" style=" margin-left: 20px;height: 20px;width: 30px;">
+                            <button class="mx-2 d-flex align-items-center justify-content-center p-1 view active " id="list-view-button"><img src="Assets/grid.png" /></button>
+                            <button class="mx-2 d-flex align-items-center justify-content-center p-1 view1 " id="grid-view-button"><img src="Assets/list.png" alt=""></button>
                         </div>
 
                     </div>
                 </div>
                 <div class="row mt-3">
-                    
-                        <div class="col-lg-4 col-md-6">
-                            <div class="  card mt-3" >
-                                <div class="location">
-                                    <img src="/Assets/pin1.png" alt="">
-                                    &nbsp Toronto
-                                </div>
+                      
+                        <div class=" bg_style col-lg-4 col-md-6">
+                            <div class="card mt-3" >
+                                
                                 <img src="Assets/Grow-Trees-On-the-path-to-environment-sustainability-1.png"
                                     class="card-img-top" alt="...">
+                                    <div class="location d-flex align-items-center text-white">
+                                        <img src="Assets/pin.png" alt="" srcset=""> &nbsp;
+                                        Toronto
+                                    </div>
+                                    <div class="Favourite">
+                                        <img src="./Assets/heart.png" alt="Favourite" srcset="">
+                                    </div>
+                                    <div class="Recommend">
+                                        <img src="./Assets/user.png" alt="Favourite" srcset="">
+                                    </div>
                                     <div class="positon-relative btn-rounded mx-auto px-3" style="margin-top: -13px;background-color: white;">Environment</div>
                                 <div class="card-body crd">
                                     <div class="heding p-3">
@@ -389,10 +400,20 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6">
+                        <div class="bg_style col-lg-4 col-md-6">
                             <div class="  card mt-3" >
                                 <img src="Assets/Education-Supplies-for-Every--Pair-of-Shoes-Sold-1.png"
                                     class="card-img-top" alt="...">
+                                    <div class="location d-flex align-items-center text-white">
+                                        <img src="Assets/pin.png" alt="" srcset=""> &nbsp;
+                                        Toronto
+                                    </div>
+                                    <div class="Favourite">
+                                        <img src="./Assets/heart.png" alt="Favourite" srcset="">
+                                    </div>
+                                    <div class="Recommend">
+                                        <img src="./Assets/user.png" alt="Favourite" srcset="">
+                                    </div>
                                     <div class="positon-relative btn-rounded mx-auto px-3" style="margin-top: -13px;background-color: white;">Children</div>
                                 <div class="card-body crd">
                                     <div class="heding p-3">
@@ -434,14 +455,24 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6">
+                        <div class="bg_style col-lg-4 col-md-6">
                             <div class="  card mt-3" >
                                 <img src="Assets/Nourish-the-Children-in--African-country-1.png"
                                     class="card-img-top" alt="...">
+                                    <div class="location d-flex align-items-center text-white">
+                                        <img src="Assets/pin.png" alt="" srcset=""> &nbsp;
+                                        Toronto
+                                    </div>
+                                    <div class="Favourite">
+                                        <img src="./Assets/heart.png" alt="Favourite" srcset="">
+                                    </div>
+                                    <div class="Recommend">
+                                        <img src="./Assets/user.png" alt="Favourite" srcset="">
+                                    </div>
                                     <div class="positon-relative btn-rounded mx-auto px-3" style="margin-top: -13px;background-color: white;">Nutrition</div>
                                 <div class="card-body crd">
                                     <div class="heding p-3">
-                                    <h6 class="card-title">Nourish the Children in African country</h6>
+                                    <h6 class="card-title">Nourish the Children in African <br> country</h6>
                                     <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quidem ratione vel mollitia nostrum deleniti!</p>
                                     <div class="rating">
                                         <span>Tree canada</span>
@@ -483,10 +514,20 @@
             
                 
                     
-                    <div class="col-lg-4 col-md-6">
+                    <div class="bg_style col-lg-4 col-md-6">
                         <div class="  card mt-3" >
                             <img src="Assets/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-1.png"
                                 class="card-img-top" alt="...">
+                                <div class="location d-flex align-items-center text-white">
+                                    <img src="Assets/pin.png" alt="" srcset=""> &nbsp;
+                                    Toronto
+                                </div>
+                                <div class="Favourite">
+                                    <img src="./Assets/heart.png" alt="Favourite" srcset="">
+                                </div>
+                                <div class="Recommend">
+                                    <img src="./Assets/user.png" alt="Favourite" srcset="">
+                                </div>
                                 <div class="positon-relative btn-rounded mx-auto px-3" style="margin-top: -13px;background-color: white;">Environment</div>
                             <div class="card-body crd">
                                 <div class="heding p-3">
@@ -528,10 +569,20 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="bg_style col-lg-4 col-md-6">
                         <div class="  card mt-3" >
                             <img src="Assets/Animal-welfare-_-save-birds-campaign-1.png"
                                 class="card-img-top" alt="...">
+                                <div class="location d-flex align-items-center text-white">
+                                    <img src="Assets/pin.png" alt="" srcset=""> &nbsp;
+                                    Toronto
+                                </div>
+                                <div class="Favourite">
+                                    <img src="./Assets/heart.png" alt="Favourite" srcset="">
+                                </div>
+                                <div class="Recommend">
+                                    <img src="./Assets/user.png" alt="Favourite" srcset="">
+                                </div>
                                 <div class="positon-relative btn-rounded mx-auto px-3" style="margin-top: -13px;background-color: white;">Animal</div>
                             <div class="card-body crd">
                                 <div class="heding p-3">
@@ -573,10 +624,20 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="bg_style col-lg-4 col-md-6">
                         <div class="  card mt-3" >
                             <img src="Assets/Plantation-and-Afforestation-programme-1.png"
                                 class="card-img-top" alt="...">
+                                <div class="location d-flex align-items-center text-white">
+                                    <img src="Assets/pin.png" alt="" srcset=""> &nbsp;
+                                    Toronto
+                                </div>
+                                <div class="Favourite">
+                                    <img src="./Assets/heart.png" alt="Favourite" srcset="">
+                                </div>
+                                <div class="Recommend">
+                                    <img src="./Assets/user.png" alt="Favourite" srcset="">
+                                </div>
                                 <div class="positon-relative btn-rounded mx-auto px-3" style="margin-top: -13px;background-color: white;">Health</div>
                             <div class="card-body crd">
                                 <div class="heding p-3">
@@ -623,10 +684,20 @@
 
                 
                         
-                    <div class="col-lg-4 col-md-6">
+                    <div class="bg_style col-lg-4 col-md-6">
                         <div class="  card mt-3" >
                             <img src="Assets/Grow-Trees-On-the-path-to-environment-sustainability-1.png"
                                 class="card-img-top" alt="...">
+                                <div class="location d-flex align-items-center text-white">
+                                    <img src="Assets/pin.png" alt="" srcset=""> &nbsp;
+                                    Toronto
+                                </div>
+                                <div class="Favourite">
+                                    <img src="./Assets/heart.png" alt="Favourite" srcset="">
+                                </div>
+                                <div class="Recommend">
+                                    <img src="./Assets/user.png" alt="Favourite" srcset="">
+                                </div>
                                 <div class="positon-relative btn-rounded mx-auto px-3" style="margin-top: -13px;background-color: white;">Education</div>
                             <div class="card-body crd">
                                 <div class="heding p-3">
@@ -668,10 +739,20 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="bg_style col-lg-4 col-md-6">
                         <div class="  card mt-3" >
                             <img src="Assets/Education-Supplies-for-Every--Pair-of-Shoes-Sold-1.png"
                                 class="card-img-top" alt="...">
+                                <div class="location d-flex align-items-center text-white">
+                                    <img src="Assets/pin.png" alt="" srcset=""> &nbsp;
+                                    Toronto
+                                </div>
+                                <div class="Favourite">
+                                    <img src="./Assets/heart.png" alt="Favourite" srcset="">
+                                </div>
+                                <div class="Recommend">
+                                    <img src="./Assets/user.png" alt="Favourite" srcset="">
+                                </div>
                                 <div class="positon-relative btn-rounded mx-auto px-3" style="margin-top: -13px;background-color: white;">Children</div>
                             <div class="card-body crd">
                                 <div class="heding p-3">
@@ -713,14 +794,24 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="bg_style col-lg-4 col-md-6">
                         <div class="  card mt-3" >
                             <img src="Assets/Nourish-the-Children-in--African-country-1.png"
                                 class="card-img-top" alt="...">
+                                <div class="location d-flex align-items-center text-white">
+                                    <img src="Assets/pin.png" alt="" srcset=""> &nbsp;
+                                    Toronto
+                                </div>
+                                <div class="Favourite">
+                                    <img src="./Assets/heart.png" alt="Favourite" srcset="">
+                                </div>
+                                <div class="Recommend">
+                                    <img src="./Assets/user.png" alt="Favourite" srcset="">
+                                </div>
                                 <div class="positon-relative btn-rounded mx-auto px-3" style="margin-top: -13px;background-color: white;">Nutrition</div>
                             <div class="card-body crd">
                                 <div class="heding p-3">
-                                <h6 class="card-title">Nourish the Children in African country</h6>
+                                <h6 class="card-title">Nourish the Children in African <br> country</h6>
                                 <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quidem ratione vel mollitia nostrum deleniti!</p>
                                 <div class="rating">
                                     <span>Tree canada</span>
