@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\source\\repos\\CI Plateform\\CI Plateform\\CI Plateform.csproj": {}
+    "E:\\New folder\\CI PLATEFORM\\MVC\\CI Plateform\\CI Plateform\\CI Plateform.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\source\\repos\\CI Plateform\\CI Plateform\\CI Plateform.csproj": {
+    "E:\\New folder\\CI PLATEFORM\\MVC\\CI Plateform\\CI Plateform\\CI Plateform.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\CI Plateform\\CI Plateform\\CI Plateform.csproj",
+        "projectUniqueName": "E:\\New folder\\CI PLATEFORM\\MVC\\CI Plateform\\CI Plateform\\CI Plateform.csproj",
         "projectName": "CI Plateform",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\CI Plateform\\CI Plateform\\CI Plateform.csproj",
+        "projectPath": "E:\\New folder\\CI PLATEFORM\\MVC\\CI Plateform\\CI Plateform\\CI Plateform.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\CI Plateform\\CI Plateform\\obj\\",
+        "outputPath": "E:\\New folder\\CI PLATEFORM\\MVC\\CI Plateform\\CI Plateform\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
