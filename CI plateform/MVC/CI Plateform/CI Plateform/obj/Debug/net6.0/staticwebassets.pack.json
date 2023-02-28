@@ -445,6 +445,10 @@
       "PackagePath": "staticwebassets\\css\\Login.css"
     },
     {
+      "Id": "E:\\New folder\\CI PLATEFORM\\MVC\\CI Plateform\\CI Plateform\\wwwroot\\css\\Registation.css",
+      "PackagePath": "staticwebassets\\css\\Registation.css"
+    },
+    {
       "Id": "E:\\New folder\\CI PLATEFORM\\MVC\\CI Plateform\\CI Plateform\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
@@ -455,10 +459,6 @@
     {
       "Id": "E:\\New folder\\CI PLATEFORM\\MVC\\CI Plateform\\CI Plateform\\wwwroot\\css\\newpass.css",
       "PackagePath": "staticwebassets\\css\\newpass.css"
-    },
-    {
-      "Id": "E:\\New folder\\CI PLATEFORM\\MVC\\CI Plateform\\CI Plateform\\wwwroot\\css\\registation.css",
-      "PackagePath": "staticwebassets\\css\\registation.css"
     },
     {
       "Id": "E:\\New folder\\CI PLATEFORM\\MVC\\CI Plateform\\CI Plateform\\wwwroot\\css\\site.css",

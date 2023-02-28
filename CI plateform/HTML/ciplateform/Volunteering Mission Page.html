@@ -7,15 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
-    <title>Plateform landing page</title>
+    <title>Volunteering Missionpage</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
     <link rel="icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="ci.css">
-    
+     <link rel="stylesheet" href="volunmission.css">
     <link rel="stylesheet" href="ciplate.js">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
@@ -29,7 +30,7 @@
 
     <header class="header">
 
-        <div class="container-fluid uline">
+        <div class="container-fluid uline ">
             <div class="row">
 
                 <div class="col-1"></div>
@@ -169,343 +170,690 @@
 
         </div>
 
-        
+    </header>
 
-        <div class="container-fluid uline">
-            <div class="row">
-                <div class="col-1"></div>
+    <div class="container mt-3">
+        <div class="container-fluid row grid justify-content-center ">
+            <div class="grid_child1 col-lg-6 col-md-12" style="padding-top: 120px;">
+                <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-mdb-ride="carousel" >
+                    <!-- Slides -->
+                    <div class="carousel-inner mb-5">
+                        <div class="carousel-item active">
+                            <img src="Assets/Grow-Trees-On-the-path-to-environment-sustainability-1.png"
+                                class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Assets/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-1.png"
+                                class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Assets/Plantation-and-Afforestation-programme-1.png"
+                                class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="Assets/Grow-Trees-On-the-path-to-environment-sustainability-1.png"
+                                class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Assets/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-1.png"
+                                class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Assets/Plantation-and-Afforestation-programme-1.png"
+                                class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Slides -->
 
-                <div class="col-10">
-                    <div class="row  row2 d-flex">
-                        <div class="col-6">
-                            <div class="search-bar">
-                                <img src="/Assets/search.png" alt="">
-                                <input class="form-control " type="text" placeholder="Search Mission..."
-                                    aria-label="Search" id="searc">
+                    <!-- Controls -->
+                    <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleIndicators"
+                        data-mdb-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleIndicators"
+                        data-mdb-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    <!-- Controls -->
 
+                    <!-- Thumbnails -->
+                    <div class="carousel-indicators" style="margin-bottom: -20px;">
+                        <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1" style="width: 100px;">
+                            <img class="d-block w-100"
+                                src="Assets/Grow-Trees-On-the-path-to-environment-sustainability-1.png"
+                                class="img-fluid" />
+                        </button>
+                        <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="1"
+                            aria-label="Slide 2" style="width: 100px;">
+                            <img class="d-block w-100"
+                                src="Assets/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-1.png"
+                                class="img-fluid" />
+                        </button>
+                        <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="2"
+                            aria-label="Slide 3" style="width: 100px;">
+                            <img class="d-block w-100"
+                                src="Assets/Plantation-and-Afforestation-programme-1.png"
+                                class="img-fluid" />
+                        </button>
+                        <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="3"
+                            class="active" aria-current="true" aria-label="Slide 4" style="width: 100px;">
+                            <img class="d-block w-100"
+                                src="Assets/Grow-Trees-On-the-path-to-environment-sustainability-1.png"
+                                class="img-fluid" />
+                        </button>
+                        <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="4"
+                            aria-label="Slide 5" style="width: 100px;">
+                            <img class="d-block w-100"
+                                src="Assets/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-1.png"
+                                class="img-fluid" />
+                        </button>
+                        <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="5"
+                            aria-label="Slide 6" style="width: 100px;">
+                            <img class="d-block w-100"
+                                src="Assets/Plantation-and-Afforestation-programme-1.png"
+                                class="img-fluid" />
+                        </button>
+                        
+                    </div>
+                    <!-- Thumbnails -->
+                </div>
+            
+            </div>
+            <div class="grid_child2 col-lg-6 col-md-12">
+                <div class="inner">
+                    <h3>CSR initiative stands for Coffee & Farmer Equity</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <div class="goal position-relative d-flex justify-content-center">
+                        <hr class="hl position-absolute">
+                        <div class="item d-flex justify-content-center align-items-center">
+                            <span>Plant 10,000 Trees</span>
+                        </div>
+                    </div>
+                    <div class="requirement row">
+                        <div class="item d-flex flex-row justify-content-center align-items-start col-6 w-50">
+                            <img  src="Assets/Seats-left.png">
+                            <div class="subitem d-flex flex-column h-100 justify-content-between align-items-start">
+                                <span>10</span>
+                                <p>Seats Left</p>
                             </div>
                         </div>
-                        <div class="col-6 filter justify-content-end">
-
-                            <nav class="navbar navbar-expand-lg  d-flex align-items-center " style="box-shadow: none; "
-                                id="navbar2">
-
-                                <div class="">
-                                    <button class="navbar-toggler navcollapse" type="button" href="#offcanvasExample2"
-                                        data-bs-toggle="offcanvas" aria-controls="offcanvasExample">
-                                        <img src="Assets/filter.png" alt="">
-                                    </button>
-                                </div>
-
-
-                                <div class="container-fluid ">
-                                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample2"
-                                        aria-labelledby="offcanvasExampleLabel" style="width:50%">
-                                        <div class="offcanvas-header">
-                                            <button type="button" class="btn-close text-reset"
-                                                data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                        </div>
-                                        <div class="offcanvas-body ">
-                                            <ul class="navbar-nav my-2 my-lg-0">
-
-                                                <li class="nav-item dropdown me-0  my-auto line ">
-                                                    <a class="nav-link active dropdown-toggle" href="#" role="button"
-                                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                                        Country<img src="/Assets/drop-down.png" alt=""
-                                                            style="margin-left:40px ;">
-
-                                                    </a>
-                                                    <!-- Dropdown -->
-                                                    <ul class="dropdown-menu">
-                                                        <li>
-                                                            <a class="dropdown-item" href="#">India</a>
-                                                        <li>
-                                                            <a class="dropdown-item" href="#">China</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="#">USA</a>
-                                                        <li>
-                                                            <a class="dropdown-item" href="#">UK</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-
-                                                <li class="nav-item dropdown line">
-                                                    <a class="nav-link active dropdown-toggle" href="#" role="button"
-                                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                                        City<img src="/Assets/drop-down.png" alt=""
-                                                            style="margin-left:40px ;"">
-                                                </a>
-                                                <!-- Dropdown -->
-                                                <ul class=" dropdown-menu">
-                                                <li>
-                                                    <a class="dropdown-item" href="#">Ahmedabad</a>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">Rajkot</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">Surat</a>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">Vadodara</a>
-                                                </li>
-                                            </ul>
-                                            </li>
-
-                                            <li class="nav-item dropdown line">
-                                                <a class="nav-link active dropdown-toggle" href="#" role="button"
-                                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                                    Theams<img src="/Assets/drop-down.png" alt=""
-                                                        style="margin-left:40px ;"">
-                                                </a>
-                                                <!-- Dropdown -->
-                                                <ul class=" dropdown-menu">
-                                            <li>
-                                                <a class="dropdown-item" href="#">Classis</a>
-                                            <li>
-                                                <a class="dropdown-item" href="#">Rock</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="#">POP</a>
-                                            <li>
-                                                <a class="dropdown-item" href="#">Western</a>
-                                            </li>
-                                            </ul>
-                                            </li>
-
-                                            <li class="nav-item dropdown line">
-                                                <a class="nav-link active dropdown-toggle" href="#" role="button"
-                                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                                    Skills<img src="/Assets/drop-down.png" alt=""
-                                                        style="margin-left:40px ;"">
-                                                </a>
-                                                <!-- Dropdown -->
-                                                <ul class=" dropdown-menu">
-                                            <li>
-                                                <a class="dropdown-item" href="#">Drawing</a>
-                                            <li>
-                                                <a class="dropdown-item" href="#">Singing</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="#">Dancing</a>
-                                            <li>
-                                                <a class="dropdown-item" href="#">Painting</a>
-                                            </li>
-                                            </ul>
-                                            </li>
-                                            </ul>
-                                        </div>
+                        <div class="item d-flex flex-row justify-content-start align-items-start col-6 ">
+                            <img class="deadline_img" src="Assets/achieved.png">
+                            <div class="subitem d-flex justify-content-between flex-column w-100 h-100">
+                                <div class="progress">
+                                    <div class="bar" style="width:65%">
+                                        <p class="percent"></p>
                                     </div>
                                 </div>
-
-                               
-                            </nav>
-
+                                <p class="my-2">8000 achieved</p>
+                            </div>
+                        </div>  
+                    </div>
+                    <hr class="hl"> 
+                    <div class="actions d-flex w-100 justify-content-between align-items-center">
+                        <button class=" d-flex justify-content-center align-items-center w-50 h-75">
+                            <img src="Assets/heart1.png">
+                            <span>Add to Favourite</span>
+                        </button>
+                        <button class=" d-flex justify-content-center align-items-center w-50 h-75">
+                            <img src="Assets/add.png">
+                            <span>Recommend to co-worker</span>
+                        </button>
+                    </div>
+                    <div class="rating position-relative d-flex justify-content-center">
+                        <hr class="hl position-absolute">
+                        <div class="item d-flex justify-content-center align-items-center">
+                            <img src="Assets/star-empty.png" alt="">
+                            <img src="Assets/star-empty.png" alt="">
+                            <img src="Assets/star-empty.png" alt="">
+                            <img src="Assets/star-empty.png" alt="">
+                            <img src="Assets/star-empty.png" alt="">
                         </div>
                     </div>
+                    <div class="cards row g-2 my-4 justify-content-between">
+                        <div class="item col-sm-3 col-lg-6 col-xs-6 col-xl-3 d-flex flex-column justify-content-between">
+                            <div class=""> 
+                                <img src="Assets/pin1.png">
+                            </div>
+                            <div class="d-flex flex-column">
+                                <p>City</p>
+                                <h6>London</h6>
+                            </div>
+                        </div>
+                        <div class="item col-sm-3 col-lg-6 col-xs-6 col-xl-3 d-flex flex-column justify-content-between">
+                            <div class=""> 
+                                <img src="Assets/web.png">
+                            </div>
+                            <div class="d-flex flex-column">
+                                <p>Theme</p>
+                                <h6>Environment</h6>
+                            </div>
+                        </div>
+                        <div class="item col-sm-3 col-lg-6 col-xs-6 col-xl-3 d-flex flex-column justify-content-between">
+                            <div class=""> 
+                                <img src="Assets/calender.png">
+                            </div>
+                            <div class="d-flex flex-column">
+                                <p>Date</p>
+                                <h6>Ongoing Opportunity</h6>
+                            </div>
+                        </div>
+                        <div class="item col-sm-3 col-lg-6 col-xs-6 col-xl-3 d-flex flex-column justify-content-between">
+                            <div class=""> 
+                                <img src="Assets/organization.png">
+                            </div>
+                            <div class="d-flex flex-column">
+                                <p>Organization</p>
+                                <h6>CSE Network</h6>
+                            </div>
+                        </div>
 
-
-
+                    </div>
+                    <div class="apply  w-100">
+                        <a asp-action="login" class="text-reset text-decoration-none">
+                        <button class="mx-auto my-4  w-100 d-flex justify-content-between align-items-center px-4" >
+                            <span>Apply Now</span>
+                            <img src="Assets/right-arrow.png">
+                        </button>
+                        </a>
+                    </div>
                 </div>
-                <div class="col-1"></div>
-
+                
             </div>
         </div>
-        
-    </header>
-     <div class="container">
-        <div class="row">
-            <div class="col-md-6 g-0 topside">
-                <img src="Assets/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-3.png" class="img-fluid" alt="">
-            </div>
-            <div class="col-md-6 g-0"></div>
-        </div>
-     </div>
-     <!-- list and grid -->
-    <div class="container">
-        <div class="row">
-            <div class="bg_style col-lg-4 col-md-6">
-                <div class="  card mt-3" >
-                    <img src="Assets/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-1.png"
-                        class="card-img-top" alt="...">
-                        <div class="location d-flex align-items-center text-white">
-                            <img src="Assets/pin.png" alt="" srcset=""> &nbsp;
-                            Toronto
+        <div class="detail row grid1 justify-content-between mb-4 " >
+            <div class="col-lg-7 col-md-12 ">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#tab-1" type="button"
+                            role="tab" aria-controls="home" aria-selected="true">
+                    Mission 
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2" type="button" role="tab"
+                            aria-controls="profile" aria-selected="false">
+                        Organization
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3" type="button" role="tab"
+                            aria-controls="contact" aria-selected="false">
+                        Comments
+                    </button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="tab-1" role="tabpanel">
+                    <div class="Introduction">
+                            <h3>Introduction</h3>
+                            <p>
+                            angry with the pain in the reprimand in the pleasure hefollowed by the doctor, but it is a time of great pain and suffering. For to come to the smallest detail,
+                                no one should practice any kind of work unless he derives some benefit from it.
+                            </p>
+                            <p>
+                                Do not be angry with the pain in the reprimand in the pleasure he wants to be a hair from the pain in the hope that there is no breeding. Unless they are blinded by lust,
+                                they do not come out; they are in fault who abandon their duties and soften their hearts, that is toil.
+                            </p>
+                            <p>
+                                It is important to take care of the patient, to be followed by the doctor, but it is a time of great pain and suffering. For let me come to the smallest detail,
+                                no one should exercise any kind of labor except that some advantage may result from it. Unless they are blinded by lust, they do not come out; they are in fault
+                                who abandon their duties and soften their hearts, that is toil.
+                            </p>
                         </div>
-                        <div class="Favourite">
-                            <img src="./Assets/heart.png" alt="Favourite" srcset="">
+                        <div class="challenge">
+                            <h3>Challenge</h3>
+                            <p>
+                                Do not be angry with the pain in the reprimand in the pleasure he wants to be a hair from the pain in the hope that there is no breeding. Unless they are blinded by lust,
+                                they do not come out; they are in fault who abandon their duties and soften their hearts, that is toil.
+                            </p>
+                            <p>
+                                It is important to take care of the patient, to be followed by the doctor, but it is a time of great pain and suffering. For let me come to the smallest detail,
+                                no one should exercise any kind of labor except that some advantage may result from it. Unless they are blinded by lust, they do not come out; they are in fault
+                                who abandon their duties and soften their hearts, that is toil.
+                            </p>
                         </div>
-                        <div class="Recommend">
-                            <img src="./Assets/user.png" alt="Favourite" srcset="">
-                        </div>
-                        <div class="positon-relative btn-rounded mx-auto px-3" style="margin-top: -13px;background-color: white;">Environment</div>
-                    <div class="card-body crd">
-                        <div class="heding p-3">
-                        <h6 class="card-title">CSR-initiative-stands-for-Coffee--and-Farmer-Equity</h6>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quidem ratione vel mollitia nostrum deleniti!</p>
-                        <div class="rating">
-                            <span>Tree canada</span>
-                            <div class="star">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
+                        <div class="document">
+                            <h3>Documents</h3>
+                            <div class="d-flex flex-wrap justify-content-start">
+                                <a class="text-decoration-none" href="https://drive.google.com/drive/u/0/folders/1xZE6Drxhfay5Id-RNCdxq9Sep5e1RbTm" target="_blank">
+                                    <button class="d-flex justify-content-center align-items-center">
+                                        <img src="Assets/pdf.png" class="mx-2">
+                                        <span>lorem-ipsum.pdf</span>
+                                    </button>
+                                </a>
+                                <a class="text-decoration-none" href="https://drive.google.com/drive/u/0/folders/1xZE6Drxhfay5Id-RNCdxq9Sep5e1RbTm" target="_blank">
+                                    <button class="d-flex justify-content-center align-items-center">
+                                        <img src="Assets/pdf.png" class="mx-2">
+                                        <span>lorem-ipsum.pdf</span>
+                                    </button>
+                                </a>
+                                <a class="text-decoration-none" href="https://drive.google.com/drive/u/0/folders/1xZE6Drxhfay5Id-RNCdxq9Sep5e1RbTm" target="_blank">
+                                    <button class="d-flex justify-content-center align-items-center">
+                                        <img src="Assets/pdf.png" class="mx-2">
+                                        <span>lorem-ipsum.pdf</span>
+                                    </button>
+                                </a>
                             </div>
                         </div>
-                    </div>
-                            <div class="labline">
-                                <label class="border  rounded-pill deadlin " > From 10/01/2019 until 25/2/2019 </label>
-                            </div>
-                    <div class="row  mt-2">
-                        <div class="col-6 d-flex inform">
-                            <img src="/Assets/Already-volunteered.png" alt="" style="width: 25px;height: 25px;margin-top: 4px;">
-                            <div class="info"><span>250</span>
-                            <span>Already volunteered</span></div>
-                        </div>
-                        <div class="col-6 d-flex inform">
-                            <img src="/Assets/deadline.png" alt="" style="width: 33px;height: 33px;">
-                            <div class="info"><span>09-01-2019</span>
-                            <span>Deadline</span></div>
-                        </div>
-                    </div>            
-                    <hr class="mt-2 mb-2">  
-                       <div class="applybtn text-center mt-3 mb-3" >
-                        
-                            <a href="#" style= "text-decoration: none;color: #F88634;padding: 5px; "><button class="btn1" style="border: 1px solid #F88634; "><span>Apply</span>  <img src="Assets/right-arrow.png" alt=""></button> </a> 
-                        
-                       </div>     
-                    
+                </div>
+                <div class="tab-pane fade" id="tab-2" role="tabpanel">
+                    <div class="organization">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum sint delectus quibusdam rem deleniti cum ut laborum! Optio voluptates quasi ea quia explicabo, placeat id architecto! Ducimus natus, magnam error corporis minima saepe odit necessitatibus velit consequatur nisi. Ipsum tenetur ducimus voluptatum est asperiores rerum odio! Eius repudiandae doloremque asperiores?
                     </div>
                 </div>
-            </div>
-            <div class="bg_style col-lg-4 col-md-6">
-                <div class="  card mt-3" >
-                    <img src="Assets/Animal-welfare-_-save-birds-campaign-1.png"
-                        class="card-img-top" alt="...">
-                        <div class="location d-flex align-items-center text-white">
-                            <img src="Assets/pin.png" alt="" srcset=""> &nbsp;
-                            Toronto
+                <div class="tab-pane fade" id="tab-3" role="tabpanel">
+                   <div class="textarea">
+                            <textarea name="enter comment" id="" cols="80" rows="5" placeholder="Enter Your Comments.."></textarea>
                         </div>
-                        <div class="Favourite">
-                            <img src="./Assets/heart.png" alt="Favourite" srcset="">
+                        <div class="postcommit">
+                            
+                            <button class="mx-auto my-4  px-4"" >
+                                Post Comment
+                            </button>
                         </div>
-                        <div class="Recommend">
-                            <img src="./Assets/user.png" alt="Favourite" srcset="">
-                        </div>
-                        <div class="positon-relative btn-rounded mx-auto px-3" style="margin-top: -13px;background-color: white;">Animal</div>
-                    <div class="card-body crd">
-                        <div class="heding p-3">
-                        <h6 class="card-title">Animal-welfare-_-save-birds- <br> campaign</h6>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quidem ratione vel mollitia nostrum deleniti!</p>
-                        <div class="rating">
-                            <span>Tree canada</span>
-                            <div class="star">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                            </div>
-                        </div>
-                    </div>
-                            <div class="labline">
-                                <label class="border  rounded-pill deadlin " > From 10/01/2019 until 25/2/2019 </label>
-                            </div>
-                    <div class="row  mt-2">
-                        <div class="col-6 d-flex inform">
-                            <img src="/Assets/Seats-left.png" alt="" style="width: 25px;height: 25px;margin-top: 4px;">
-                            <div class="info"><span>10</span>
-                            <span>Seats-left</span></div>
-                        </div>
-                        <div class="col-6 d-flex inform">
-                            <img src="/Assets/deadline.png" alt="" style="width: 33px;height: 33px;">
-                            <div class="info"><span>09-01-2019</span>
-                            <span>Deadline</span></div>
-                        </div>
-                    </div>            
-                    <hr class="mt-2 mb-2">  
-                       <div class="applybtn text-center mt-3 mb-3" >
-                        
-                            <a href="#" style= "text-decoration: none;color: #F88634;padding: 5px; "><button class="btn1" style="border: 1px solid #F88634; "><span>Apply</span>  <img src="Assets/right-arrow.png" alt=""></button> </a> 
-                        
-                       </div>     
-                    
-                    </div>
-                </div>
-            </div>
-            <div class="bg_style col-lg-4 col-md-6">
-                <div class="  card mt-3" >
-                    <img src="Assets/Plantation-and-Afforestation-programme-1.png"
-                        class="card-img-top" alt="...">
-                        <div class="location d-flex align-items-center text-white">
-                            <img src="Assets/pin.png" alt="" srcset=""> &nbsp;
-                            Toronto
-                        </div>
-                        <div class="Favourite">
-                            <img src="./Assets/heart.png" alt="Favourite" srcset="">
-                        </div>
-                        <div class="Recommend">
-                            <img src="./Assets/user.png" alt="Favourite" srcset="">
-                        </div>
-                        <div class="positon-relative btn-rounded mx-auto px-3" style="margin-top: -13px;background-color: white;">Health</div>
-                    <div class="card-body crd">
-                        <div class="heding p-3">
-                        <h6 class="card-title">Plantation and Afforestation <br> programme</h6>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quidem ratione vel mollitia nostrum deleniti!</p>
-                        <div class="rating">
-                            <span>Tree canada</span>
-                            <div class="star">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                            </div>
-                        </div>
-                    </div>
-                            <div class="labline">
-                                <label class="border  rounded-pill deadlin " > From 10/01/2019 until 25/2/2019 </label>
-                            </div>
-                    <div class="row  mt-2">
-                        <div class="col-6 d-flex inform">
-                            <img src="/Assets/Seats-left.png" alt="" style="width: 25px;height: 25px;margin-top: 4px;">
-                            <div class="info"><span>10</span>
-                            <span>Seats-left</span></div>
-                        </div>
-                        <div class="col-6 d-flex inform">
-                            <img src="/Assets/deadline.png" alt="" style="width: 33px;height: 33px;">
-                            <div class="info"><span>09-01-2019</span>
-                            <span>Deadline</span></div>
-                        </div>
-                    </div>            
-                    <hr class="mt-2 mb-2">  
-                       <div class="applybtn text-center mt-3 mb-3" >
-                        
-                            <a href="#" style= "text-decoration: none;color: #F88634;padding: 5px; "><button class="btn1" style="border: 1px solid #F88634; "><span>Apply</span>  <img src="Assets/right-arrow.png" alt=""></button> </a> 
-                        
-                       </div>     
-                    
-                    </div>
-                </div>
-            </div>
-        </div>
+                        <div class="document">
 
+                            <div class="Scroll">
+                                <div class="d-flex mt-2 ms-2 bg-light rounded-2 me-2">
+                                    <div class="my-auto">
+                                        <img src="Assets/volunteer1.png" width="50px" height="50px" class="volImg ms-2" alt="">
+                                    </div>
+                                    <div class="ps-3">
+                                        <p class="mb-0">Margaret Walsh</p>
+                                        <small style="font-size: 12px;">Monday, October 21,2019,4.57 PM</small>
+                                        <p>Nice mission great oppertunity for peoples</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex mt-2 ms-2 bg-light rounded-2 me-2">
+                                    <div class="my-auto">
+                                        <img src="Assets/volunteer2.png" width="50px" height="50px" class="volImg ms-2" alt="">
+                                    </div>
+                                    <div class="ps-3">
+                                        <p class="mb-0">Margaret Walsh</p>
+                                        <small style="font-size: 12px;">Monday, October 21,2019,4.57 PM</small>
+                                        <p>Nice mission great oppertunity for peoples</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex mt-2 ms-2 bg-light rounded-2 me-2">
+                                    <div class="my-auto">
+                                        <img src="Assets/volunteer3.png" width="50px" height="50px" class="volImg ms-2" alt="">
+                                    </div>
+                                    <div class="ps-3">
+                                        <p class="mb-0">Margaret Walsh</p>
+                                        <small style="font-size: 12px;">Monday, October 21,2019,4.57 PM</small>
+                                        <p>Nice mission great oppertunity for peoples</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex mt-2 ms-2 bg-light rounded-2 me-2">
+                                    <div class="my-auto">
+                                        <img src="Assets/volunteer4.png" width="50px" height="50px" class="volImg ms-2" alt="">
+                                    </div>
+                                    <div class="ps-3">
+                                        <p class="mb-0">Margaret Walsh</p>
+                                        <small style="font-size: 12px;">Monday, October 21,2019,4.57 PM</small>
+                                        <p>Nice mission great oppertunity for peoples</p>
+                                    </div>
+                                </div>
+    
+                                <div class="d-flex mt-2 ms-2 bg-light rounded-2 me-2">
+                                    <div class="my-auto">
+                                        <img src="Assets/volunteer5.png" width="50px" height="50px" class="volImg ms-2" alt="">
+                                    </div>
+                                    <div class="ps-3">
+                                        <p class="mb-0">Margaret Walsh</p>
+                                        <small style="font-size: 12px;">Monday, October 21,2019,4.57 PM</small>
+                                        <p>Nice mission great oppertunity for peoples</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex mt-2 ms-2 bg-light rounded-2 me-2">
+                                    <div class="my-auto">
+                                        <img src="Assets/volunteer6.png" width="50px" height="50px" class="volImg ms-2" alt="">
+                                    </div>
+                                    <div class="ps-3">
+                                        <p class="mb-0">Margaret Walsh</p>
+                                        <small style="font-size: 12px;">Monday, October 21,2019,4.57 PM</small>
+                                        <p>Nice mission great oppertunity for peoples</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex mt-2 ms-2 bg-light rounded-2 me-2">
+                                    <div class="my-auto">
+                                        <img src="Assets/volunteer7.png" width="50px" height="50px" class="volImg ms-2" alt="">
+                                    </div>
+                                    <div class="ps-3">
+                                        <p class="mb-0">Margaret Walsh</p>
+                                        <small style="font-size: 12px;">Monday, October 21,2019,4.57 PM</small>
+                                        <p>Nice mission great oppertunity for peoples</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex mt-2 ms-2 bg-light rounded-2 me-2">
+                                    <div class="my-auto">
+                                        <img src="Assets/volunteer8.png" width="50px" height="50px" class="volImg ms-2" alt="">
+                                    </div>
+                                    <div class="ps-3">
+                                        <p class="mb-0">Margaret Walsh</p>
+                                        <small style="font-size: 12px;">Monday, October 21,2019,4.57 PM</small>
+                                        <p>Nice mission great oppertunity for peoples</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex mt-2 ms-2 bg-light rounded-2 me-2">
+                                    <div class="my-auto">
+                                        <img src="Assets/volunteer9.png" width="50px" height="50px" class="volImg ms-2" alt="">
+                                    </div>
+                                    <div class="ps-3">
+                                        <p class="mb-0">Margaret Walsh</p>
+                                        <small style="font-size: 12px;">Monday, October 21,2019,4.57 PM</small>
+                                        <p>Nice mission great oppertunity for peoples</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                </div>
+            </div>
+
+
+     
+            </div>  
+            <div class="detail_r col-lg-4 col-md-12 d-flex flex-column justify-content-between" >
+                <div class="about_mission p-4 mt-3">
+                    <h4>Introduction</h4>
+                    <hr>
+                    <div class="child row w-100 align-items-center my-3">
+                        <label class="col-3">Skills</label>
+                        <p class="col-9">Cool,Easy going, Math, Computer</p>
+                    </div>
+                    <hr>
+                    <div class="child row w-100 align-items-center my-3">
+                        <label class="col-3">Days</label>
+                        <p class="col-9">Weekand only</p>
+                    </div>
+                    <hr>
+                    <div class="child row w-100 align-items-center my-3">
+                        <label class="col-3">Skills</label>
+                        <div class="col-9">
+                            <img src="Assets/selected-star.png">
+                            <img src="Assets/selected-star.png">
+                            <img src="Assets/selected-star.png">
+                            <img src="Assets/selected-star.png">
+                            <img src="Assets/selected-star.png">
+                            <span>(by 125 volunteers)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="recent_vol ">
+                    <div class="p-4">
+                        <h4>Recent Volunteers</h4>
+                        <hr>
+                        <div class="volunteers py-4 d-flex flex-wrap">
+                            <div class="user d-flex flex-column align-items-center justify-content-center">
+                                <img src="Assets/volunteer1.png">
+                                <span>Andrew Johnson</span>
+                            </div>
+                            <div class="user d-flex flex-column align-items-center justify-content-center">
+                                <img src="Assets/volunteer2.png">
+                                <span>Charles Vigue</span>
+                            </div>
+                            <div class="user d-flex flex-column align-items-center justify-content-center">
+                                <img src="Assets/volunteer3.png">
+                                <span>Kathryn Roberts</span>
+                            </div>
+                            <div class="user d-flex flex-column align-items-center justify-content-center">
+                                <img src="Assets/volunteer4.png">
+                                <span>Andrew Johnson</span>
+                            </div>
+                            <div class="user d-flex flex-column align-items-center justify-content-center">
+                                <img src="Assets/volunteer5.png">
+                                <span>Charles Vigue</span>
+                            </div>
+                            <div class="user d-flex flex-column align-items-center justify-content-center">
+                                <img src="Assets/volunteer6.png">
+                                <span>Kathryn Roberts</span>
+                            </div><div class="user d-flex flex-column align-items-center justify-content-center">
+                                <img src="Assets/volunteer7.png">
+                                <span>Andrew Johnson</span>
+                            </div>
+                            <div class="user d-flex flex-column align-items-center justify-content-center">
+                                <img src="Assets/volunteer8.png">
+                                <span>Charles Vigue</span>
+                            </div>
+                            <div class="user d-flex flex-column align-items-center justify-content-center">
+                                <img src="Assets/volunteer9.png">
+                                <span>Kathryn Roberts</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagging d-flex justify-content-between align-items-center">
+                        <button>
+                            <div class="prev">
+                                <img src="Assets/left.png">
+                            </div>
+                        </button>
+                        <div>
+                            <span>1 - 9 of 25 Recent Volunteers</span>
+                        </div>
+                        <button>
+                            <div class="next">
+                                <img src="Assets/right-arrow1.png">
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
     </div>
     
-    <div class="container-fluid">
-        <div class="row " style="border-top: #E8E8E8;">
-            <div class="col-md-1">
+    <div style="border-bottom: 1px solid #E8E8E8;"></div>
+    <!-- list and grid -->
+    <div class="container mb-3">
+        <div class="d-flex mt-2" style="height: 50px;align-items: center;justify-content: center;"> <h3 >Releted Mission</h3></div>
+        <div class="row">
 
-            </div>
-            <div class="col-md-10 mb-3" style="border-top:1 px solid #E8E8E8;">
-            <a href="#" style="color: #414141; "> Privacy Policy</a>            
-            </div>
-            <div class="col-md-1">
+            <div class="bg_style col-lg-4 col-md-6">
+                <div class="  card mt-3">
+                    <img src="Assets/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-1.png" class="card-img-top"
+                        alt="...">
+                    <div class="location d-flex align-items-center text-white">
+                        <img src="Assets/pin.png" alt="" srcset=""> &nbsp;
+                        Toronto
+                    </div>
+                    <div class="Favourite">
+                        <img src="./Assets/heart.png" alt="Favourite" srcset="">
+                    </div>
+                    <div class="Recommend">
+                        <img src="./Assets/user.png" alt="Favourite" srcset="">
+                    </div>
+                    <div class="positon-relative btn-rounded mx-auto px-3"
+                        style="margin-top: -13px;background-color: white;">Environment</div>
+                    <div class="card-body crd">
+                        <div class="heding p-3">
+                            <h6 class="card-title">CSR-initiative-stands-for-Coffee-- <br>
+                                and-Farmer-Equity</h6>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quidem
+                                ratione vel mollitia nostrum deleniti!</p>
+                            <div class="rating">
+                                <span>Tree canada</span>
+                                <div class="star">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="labline">
+                            <label class="border  rounded-pill deadlin "> From 10/01/2019 until 25/2/2019 </label>
+                        </div>
+                        <div class="row  mt-2">
+                            <div class="col-6 d-flex inform">
+                                <img src="Assets/Already-volunteered.png" alt=""
+                                    style="width: 25px;height: 25px;margin-top: 4px;">
+                                <div class="info"><span>250</span>
+                                    <span>Already volunteered</span>
+                                </div>
+                            </div>
+                            <div class="col-6 d-flex inform">
+                                <img src="Assets/deadline.png" alt="" style="width: 33px;height: 33px;">
+                                <div class="info"><span>09-01-2019</span>
+                                    <span>Deadline</span>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="mt-2 mb-2">
+                        <div class="applybtn text-center mt-3 mb-3">
 
+                            <a href="#" style="text-decoration: none;color: #F88634;padding: 5px; "><button class="btn1"
+                                    style="border: 1px solid #F88634; "><span>Apply</span> <img
+                                        src="Assets/right-arrow.png" alt=""></button> </a>
+
+                        </div>
+
+                    </div>
+                </div>
             </div>
+            <div class="bg_style col-lg-4 col-md-6">
+                <div class="  card mt-3">
+                    <img src="Assets/Animal-welfare-_-save-birds-campaign-1.png" class="card-img-top" alt="...">
+                    <div class="location d-flex align-items-center text-white">
+                        <img src="Assets/pin.png" alt="" srcset=""> &nbsp;
+                        Toronto
+                    </div>
+                    <div class="Favourite">
+                        <img src="./Assets/heart.png" alt="Favourite" srcset="">
+                    </div>
+                    <div class="Recommend">
+                        <img src="./Assets/user.png" alt="Favourite" srcset="">
+                    </div>
+                    <div class="positon-relative btn-rounded mx-auto px-3"
+                        style="margin-top: -13px;background-color: white;">Animal</div>
+                    <div class="card-body crd">
+                        <div class="heding p-3">
+                            <h6 class="card-title">Animal-welfare-_-save-birds- <br> campaign</h6>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quidem
+                                ratione vel mollitia nostrum deleniti!</p>
+                            <div class="rating">
+                                <span>Tree canada</span>
+                                <div class="star">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="labline">
+                            <label class="border  rounded-pill deadlin "> From 10/01/2019 until 25/2/2019 </label>
+                        </div>
+                        <div class="row  mt-2">
+                            <div class="col-6 d-flex inform">
+                                <img src="Assets/Seats-left.png" alt=""
+                                    style="width: 25px;height: 25px;margin-top: 4px;">
+                                <div class="info"><span>10</span>
+                                    <span>Seats-left</span>
+                                </div>
+                            </div>
+                            <div class="col-6 d-flex inform">
+                                <img src="Assets/deadline.png" alt="" style="width: 33px;height: 33px;">
+                                <div class="info"><span>09-01-2019</span>
+                                    <span>Deadline</span>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="mt-2 mb-2">
+                        <div class="applybtn text-center mt-3 mb-3">
+
+                            <a href="#" style="text-decoration: none;color: #F88634;padding: 5px; "><button class="btn1"
+                                    style="border: 1px solid #F88634; "><span>Apply</span> <img
+                                        src="Assets/right-arrow.png" alt=""></button> </a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="bg_style col-lg-4 col-md-6">
+                <div class="  card mt-3">
+                    <img src="Assets/Plantation-and-Afforestation-programme-1.png" class="card-img-top" alt="...">
+                    <div class="location d-flex align-items-center text-white">
+                        <img src="Assets/pin.png" alt="" srcset=""> &nbsp;
+                        Toronto
+                    </div>
+                    <div class="Favourite">
+                        <img src="./Assets/heart.png" alt="Favourite" srcset="">
+                    </div>
+                    <div class="Recommend">
+                        <img src="./Assets/user.png" alt="Favourite" srcset="">
+                    </div>
+                    <div class="positon-relative btn-rounded mx-auto px-3"
+                        style="margin-top: -13px;background-color: white;">Health</div>
+                    <div class="card-body crd">
+                        <div class="heding p-3">
+                            <h6 class="card-title">Plantation and Afforestation <br> programme</h6>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quidem
+                                ratione vel mollitia nostrum deleniti!</p>
+                            <div class="rating">
+                                <span>Tree canada</span>
+                                <div class="star">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="labline">
+                            <label class="border  rounded-pill deadlin "> From 10/01/2019 until 25/2/2019 </label>
+                        </div>
+                        <div class="row  mt-2">
+                            <div class="col-6 d-flex inform">
+                                <img src="Assets/Seats-left.png" alt=""
+                                    style="width: 25px;height: 25px;margin-top: 4px;">
+                                <div class="info"><span>10</span>
+                                    <span>Seats-left</span>
+                                </div>
+                            </div>
+                            <div class="col-6 d-flex inform">
+                                <img src="Assets/deadline.png" alt="" style="width: 33px;height: 33px;">
+                                <div class="info"><span>09-01-2019</span>
+                                    <span>Deadline</span>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="mt-2 mb-2">
+                        <div class="applybtn text-center mt-3 mb-3">
+
+                            <a href="#" style="text-decoration: none;color: #F88634;padding: 5px; "><button class="btn1"
+                                    style="border: 1px solid #F88634; "><span>Apply</span> <img
+                                        src="Assets/right-arrow.png" alt=""></button> </a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div style="border-bottom: 1px solid #E8E8E8;"></div>
+    <div class="container">
+        
+            
+            <div class=" mb-3 mt-4 ms-4 ">
+                <a href="#" style="color: #414141; margin-top: 10px; "> <h6>Privacy Policy</h6></a>
+            </div>
+            
 
         </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </body>
 
 </html>

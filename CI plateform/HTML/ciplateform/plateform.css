@@ -256,6 +256,7 @@ p {
     position: relative;
     /* position: relative; */
     display: flex;
+    height: 100%;
     /* margin-bottom: 10px; */
 }
 
@@ -456,10 +457,15 @@ footer {
         font-weight: normal;
     }
 
+    /* .listimg{
+        min-height: 400px;
+    } */
+   
 @media only screen and (max-width: 768px) {
     .navigation-bar span{
         display:none;
     }
+    
 }
 @media (max-width:800px) {
     .Profile span,.Profile .ic-down{display: none;} 
@@ -473,7 +479,7 @@ footer {
         display: none;
     }
 }
-@media   (max-width:990) {
+@media only screen and  (max-width:990) {
     #navbar2{
         width: 41px;
     }

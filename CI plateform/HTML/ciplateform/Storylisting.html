@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="plateform.css">
+    <link rel="stylesheet" href="storylisting.css">
+    <title>Storylisting page</title>
+</head>
+<body>
+    <header class="header">
+
+        <div class="container-fluid uline">
+            <div class="row">
+
+                <div class="col-1"></div>
+
+                <div class="col-10">
+
+                    <div class="row row1">
+                        <div class="col-5 displayf" id="myTopnav">
+                            <nav class="navbar navbar-expand-lg bg-white d-flex align-items-center"
+                                style="box-shadow: none;">
+
+                                <!-- Logo -->
+                                <div class="col-md-8 d-flex align-items-center justify-content-md-start mb-md-0">
+                                    <button class="navbar-toggler navcollapse" href="#offcanvasExample" role="button"
+                                        data-bs-toggle="offcanvas" aria-controls="offcanvasExample">
+                                        <span class="navbar-toggler-icon"></span>
+
+                                    </button>
+                                    <a href="#!" class="ms-md-2 mt-2">
+                                        <img src="Assets/logo.png" alt="" height="35">
+                                    </a>
+
+                                    <!-- Top navbar content -->
+                                    <div class="container-fluid">
+                                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                                            aria-labelledby="offcanvasExampleLabel" style="width:50%;">
+                                            <div class="offcanvas-header">
+                                                <h5 class="offcanvas-title" id="offcanvasExample"></h5>
+                                                <button type="button" class="btn-close text-reset"
+                                                    data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                            </div>
+                                            <div class="offcanvas-body">
+                                                <ul class="navbar-nav me-auto my-2 my-lg-0">
+                                                    <li class="nav-item dropdown">
+                                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                                            Explore
+                                                            <img src="Assets/drop-down.png" alt="">
+                                                            </button>
+                                                        </a>
+                                                        <!-- Dropdown -->
+                                                        <ul class="dropdown-menu dropend">
+
+                                                            <li>
+
+                                                                <a class="dropdown-item justify-content-space"
+                                                                    href="#">Top Theams
+
+                                                                </a>
+                                                            </li>
+                                                            <li>
+
+                                                                <a class="dropdown-item justify-content-space"
+                                                                    href="#">Top Theams
+
+                                                                </a>
+                                                            </li>
+                                                            <li>
+
+                                                                <a class="dropdown-item justify-content-space"
+                                                                    href="#">Top Theams
+
+                                                                </a>
+                                                            </li>
+
+                                                        </ul>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" aria-current="page" href="#">Stories
+
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">News</a>
+                                                    </li>
+
+                                                    <li class="nav-item dropdown">
+                                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                                            Policy
+                                                            <img src="Assets/drop-down.png" alt="">
+
+                                                        </a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a class="dropdown-item" href="#">Site Policy</a></li>
+                                                            <li><a class="dropdown-item" href="#">Company policy</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                        </div>
+
+                        <div class="col-5 side">
+                            <div class="me-4 notification">
+                                <div class="dropdown">
+                                    <button class="dropdown-toggle" data-bs-toggle="dropdown">
+                                        <img src="/Assets/bell.png" alt="">
+                                    </button>
+
+                                    <div class="dropdown-menu">
+                                        <a href="#" class="dropdown-item">Action1</a>
+                                        <a href="#" class="dropdown-item">Action2</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" prof">
+                                <div class="dropdown">
+                                    <button class="dropdown-toggle Profile" data-bs-toggle="dropdown">
+                                        <img src="./Assets/user-img.png" id="user">
+                                        <span style="font-size: 15px;">Evan Donohue</span>
+                                        <img src="./Assets/drop-down.png" class="ic-down">
+                                    </button>
+
+                                    <div class="dropdown-menu">
+                                        <a href="#" class="dropdown-item">My Profile</a>
+                                        <a href="#" class="dropdown-item">Volunteering timesheet</a>
+                                        <a href="#" class="dropdown-item">Log out</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-1"></div>
+
+
+            </div>
+
+        </div>
+
+        
+
+        <div class="container-fluid uline">
+            <div class="row">
+                <div class="col-1"></div>
+
+                <div class="col-10">
+                    <div class="row  row2 d-flex">
+                        <div class="col-6">
+                            <div class="search-bar">
+                                <!-- <img src="./Assets/search.png" alt=""> -->
+                                <input class="form-control " type="text" placeholder="Search Mission..."
+                                    aria-label="Search" id="searc">
+
+                            </div>
+                        </div>
+                        <div class="col-6 filter justify-content-end">
+
+                            <nav class="navbar navbar-expand-lg  d-flex align-items-center " style="box-shadow: none; "
+                                id="navbar2">
+
+                                <div class="">
+                                    <button class="navbar-toggler navcollapse" type="button" href="#offcanvasExample2"
+                                        data-bs-toggle="offcanvas" aria-controls="offcanvasExample">
+                                        <img src="Assets/filter.png" alt="">
+                                    </button>
+                                </div>
+
+
+                                <div class="container-fluid ">
+                                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample2"
+                                        aria-labelledby="offcanvasExampleLabel" style="width:50%">
+                                        <div class="offcanvas-header">
+                                            <button type="button" class="btn-close text-reset"
+                                                data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                        </div>
+                                        <div class="offcanvas-body ">
+                                            <ul class="navbar-nav my-2 my-lg-0">
+
+                                                <li class="nav-item dropdown me-0  my-auto line ">
+                                                    <a class="nav-link active dropdown-toggle" href="#" role="button"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Country<img src="./Assets/drop-down.png" alt=""
+                                                            style="margin-left:40px ;">
+
+                                                    </a>
+                                                    <!-- Dropdown -->
+                                                    <ul class="dropdown-menu">
+                                                        <li>
+                                                            <a class="dropdown-item" href="#">India</a>
+                                                        <li>
+                                                            <a class="dropdown-item" href="#">China</a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item" href="#">USA</a>
+                                                        <li>
+                                                            <a class="dropdown-item" href="#">UK</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                                <li class="nav-item dropdown line">
+                                                    <a class="nav-link active dropdown-toggle" href="#" role="button"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        City<img src="./Assets/drop-down.png" alt=""
+                                                            style="margin-left:40px ;"">
+                                                </a>
+                                                <!-- Dropdown -->
+                                                <ul class=" dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">Ahmedabad</a>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">Rajkot</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">Surat</a>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">Vadodara</a>
+                                                </li>
+                                            </ul>
+                                            </li>
+
+                                            <li class="nav-item dropdown line">
+                                                <a class="nav-link active dropdown-toggle" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Theams<img src="./Assets/drop-down.png" alt=""
+                                                        style="margin-left:40px ;"">
+                                                </a>
+                                                <!-- Dropdown -->
+                                                <ul class=" dropdown-menu">
+                                            <li>
+                                                <a class="dropdown-item" href="#">Classis</a>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Rock</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">POP</a>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Western</a>
+                                            </li>
+                                            </ul>
+                                            </li>
+
+                                            <li class="nav-item dropdown line">
+                                                <a class="nav-link active dropdown-toggle" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Skills<img src="./Assets/drop-down.png" alt=""
+                                                        style="margin-left:40px ;"">
+                                                </a>
+                                                <!-- Dropdown -->
+                                                <ul class=" dropdown-menu">
+                                            <li>
+                                                <a class="dropdown-item" href="#">Drawing</a>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Singing</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Dancing</a>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Painting</a>
+                                            </li>
+                                            </ul>
+                                            </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                               
+                            </nav>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="col-1"></div>
+
+            </div>
+        </div>
+        
+    </header>
+
+   <div class="container-flued">
+    <img src="Assets/Grow-Trees-On-the-path-to-environment-sustainability-1.png"  alt="" id="headimg">
+   </div> 
+   <div class="">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius tempore maxime sequi adipisci temporibus dignissimos.</p>
+   </div>
+   <div class=" m-2 p-0">
+    <div class="row" id="list">
+        <div class="bg_style col-lg-4 col-md-6">
+            <div class="card d-flex flex-column ">
+                <div class="ld_view w-100 h-100%">
+                <div class="image d-flex justify-content-center w-100 "  >
+                    <img src="Assets/Grow-Trees-On-the-path-to-environment-sustainability.png" class="w-100  listimg "/>
+                    <div class="type d-flex justify-content-center">
+                        <span>Environment</span>
+                    </div>
+                    
+                    
+                </div>
+                </div>
+                <div class="ld_view w-100">
+                <div class="card_inner d-flex flex-column">
+                    <div class="heading">
+                        <h2>Grow Trees – On the path to environment sustainability</h2>
+                    </div>
+                    <div class="describe">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                    </div>
+                    <div class="rating d-flex flex-row justify-content-between align-items-center">
+                        <span> Tree Canada</span>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            </div>
+        </div>
+        <div class="bg_style col-lg-4 col-md-6">
+            <div class="card d-flex flex-column">
+                <div class="ld_view w-100">
+                <div class="image d-flex justify-content-center w-100"  >
+                    <img src="Assets/Education-Supplies-for-Every--Pair-of-Shoes-Sold.png" class="w-100  listimg"/>
+                    <div class="type d-flex justify-content-center">
+                        <span>Environment</span>
+                    </div>
+                    
+                
+                    
+                </div>
+                </div>
+                <div class="ld_view w-100">
+                <div class="card_inner d-flex flex-column">
+                    <div class="heading">
+                        <h2>Grow Trees – On the path to environment sustainability</h2>
+                    </div>
+                    <div class="describe">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                    </div>
+                    <div class="rating d-flex flex-row justify-content-between align-items-center">
+                        <span> Tree Canada</span>
+                       
+                    </div>
+                    
+                </div>
+                
+                
+            </div>
+            </div>
+        </div>
+        <div class="bg_style col-lg-4 col-md-6">
+            <div class="card d-flex flex-column">
+                <div class="ld_view w-100">
+                <div class="image d-flex justify-content-center w-100"  >
+                    <img src="Assets/Nourish-the-Children-in--African-country.png" class="w-100 listimg"/>
+                    <div class="type d-flex justify-content-center">
+                        <span>Environment</span>
+                    </div>
+                    
+                    
+                </div>
+                </div>
+                <div class="ld_view w-100">
+                <div class="card_inner d-flex flex-column">
+                    <div class="heading">
+                        <h2>Grow Trees – On the path to environment sustainability</h2>
+                    </div>
+                    <div class="describe">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                    </div>
+                    <div class="rating d-flex flex-row justify-content-between align-items-center">
+                        <span> Tree Canada</span>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            </div>
+        </div>
+        <div class="bg_style col-lg-4 col-md-6">
+            <div class="card d-flex flex-column ">
+                <div class="ld_view w-100">
+                <div class="image d-flex justify-content-center w-100 "  >
+                    <img src="Assets/Grow-Trees-On-the-path-to-environment-sustainability.png" class="w-100 listimg"/>
+                    <div class="type d-flex justify-content-center">
+                        <span>Environment</span>
+                    </div>
+                    
+                    
+                </div>
+                </div>
+                <div class="ld_view w-100">
+                <div class="card_inner d-flex flex-column">
+                    <div class="heading">
+                        <h2>Grow Trees – On the path to environment sustainability</h2>
+                    </div>
+                    <div class="describe">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                    </div>
+                    <div class="rating d-flex flex-row justify-content-between align-items-center">
+                        <span> Tree Canada</span>
+                        <
+                    </div>
+                    
+                </div>
+                
+            </div>
+            </div>
+        </div>
+        <div class="bg_style col-lg-4 col-md-6">
+            <div class="card d-flex flex-column">
+                <div class="ld_view w-100">
+                <div class="image d-flex justify-content-center w-100"  >
+                    <img src="Assets//Education-Supplies-for-Every--Pair-of-Shoes-Sold.png" class="w-100  listimg"/>
+                    <div class="type d-flex justify-content-center">
+                        <span>Environment</span>
+                    </div>
+                    
+                    
+                </div>
+                </div>
+                <div class="ld_view w-100">
+                <div class="card_inner d-flex flex-column">
+                    <div class="heading">
+                        <h2>Grow Trees – On the path to environment sustainability</h2>
+                    </div>
+                    <div class="describe">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                    </div>
+                    <div class="rating d-flex flex-row justify-content-between align-items-center">
+                        <span> Tree Canada</span>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            </div>
+        </div>
+        <div class="bg_style col-lg-4 col-md-6">
+            <div class="card d-flex flex-column">
+                <div class="ld_view w-100">
+                <div class="image d-flex justify-content-center w-100"  >
+                    <img src="Assets/Nourish-the-Children-in--African-country.png" class="w-100 listimg"/>
+                    <div class="type d-flex justify-content-center">
+                        <span>Environment</span>
+                    </div>
+                  
+                    
+                </div>
+                </div>
+                <div class="ld_view w-100">
+                <div class="card_inner d-flex flex-column">
+                    <div class="heading">
+                        <h2>Grow Trees – On the path to environment sustainability</h2>
+                    </div>
+                    <div class="describe">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                    </div>
+                    <div class="rating d-flex flex-row justify-content-between align-items-center">
+                        <span> Tree Canada</span>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            </div>
+        </div>
+        <div class="bg_style col-lg-4 col-md-6">
+            <div class="card d-flex flex-column ">
+                <div class="ld_view w-100">
+                <div class="image d-flex justify-content-center w-100 "  >
+                    <img src="Assets/Grow-Trees-On-the-path-to-environment-sustainability.png" class="w-100 listimg"/>
+                    <div class="type d-flex justify-content-center">
+                        <span>Environment</span>
+                    </div>
+                  
+                </div>
+                </div>
+                <div class="ld_view w-100">
+                <div class="card_inner d-flex flex-column">
+                    <div class="heading">
+                        <h2>Grow Trees – On the path to environment sustainability</h2>
+                    </div>
+                    <div class="describe">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                    </div>
+                    <div class="rating d-flex flex-row justify-content-between align-items-center">
+                        <span> Tree Canada</span>
+                        
+                    </div>
+                    
+                </div>
+              
+            </div>
+            </div>
+        </div>
+        <div class="bg_style col-lg-4 col-md-6">
+            <div class="card d-flex flex-column">
+                <div class="ld_view w-100">
+                <div class="image d-flex justify-content-center w-100"  >
+                    <img src="Assets//Education-Supplies-for-Every--Pair-of-Shoes-Sold.png" class="w-100 listimg"/>
+                    <div class="type d-flex justify-content-center">
+                        <span>Environment</span>
+                    </div>
+                   
+                    
+                </div>
+                </div>
+                <div class="ld_view w-100">
+                <div class="card_inner d-flex flex-column">
+                    <div class="heading">
+                        <h2>Grow Trees – On the path to environment sustainability</h2>
+                    </div>
+                    <div class="describe">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                    </div>
+                    <div class="rating d-flex flex-row justify-content-between align-items-center">
+                        <span> Tree Canada</span>
+                        
+                    </div>
+                    
+                </div>
+               
+            </div>
+            </div>
+        </div>
+        <div class="bg_style col-lg-4 col-md-6">
+            <div class="card d-flex flex-column">
+                <div class="ld_view w-100">
+                <div class="image d-flex justify-content-center w-100"  >
+                    <img src="Assets/Nourish-the-Children-in--African-country.png" class="w-100 listimg"/>
+                    <div class="type d-flex justify-content-center">
+                        <span>Environment</span>
+                    </div>
+                   
+                    
+                </div>
+                </div>
+                <div class="ld_view w-100">
+                <div class="card_inner d-flex flex-column">
+                    <div class="heading">
+                        <h2>Grow Trees – On the path to environment sustainability</h2>
+                    </div>
+                    <div class="describe">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                    </div>
+                    <div class="rating d-flex flex-row justify-content-between align-items-center">
+                        <span> Tree Canada</span>
+                        
+                    </div>
+                    
+                </div>
+               
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="page_nav d-flex justify-content-center">
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <img src="Assets/previous.png">
+                </a>
+              </li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="left">
+              <img src="Assets/left.png">
+            </a>
+          </li>
+          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="right">
+                <img src="Assets/right-arrow1.png">
+            </a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <img src="Assets/next.png">
+            </a>
+          </li>
+        </ul>
+      </nav>
+</div>
+
+<hr style="padding: 0 !important;margin: 0 !important;width: 100% ;color: #757575;">
+<footer class="container">
+    <a href=""><h6>Privacy Policy</h6></a>
+</footer>
+</body>
+</html>

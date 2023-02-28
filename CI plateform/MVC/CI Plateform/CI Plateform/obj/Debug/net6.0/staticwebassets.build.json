@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LGyGA6A0GDsp7cIhE6YpQQuMfUZZD1ybQsWOrD3n1ug=",
+  "Hash": "wNUZQVyqIHArIRHsIDrSYjc85js+YTLXTs3wYRRVYEk=",
   "Source": "CI Plateform",
   "BasePath": "_content/CI Plateform",
   "Mode": "Default",
@@ -1972,12 +1972,12 @@
       "OriginalItemSpec": "wwwroot\\css\\newpass.css"
     },
     {
-      "Identity": "E:\\New folder\\CI PLATEFORM\\MVC\\CI Plateform\\CI Plateform\\wwwroot\\css\\registation.css",
+      "Identity": "E:\\New folder\\CI PLATEFORM\\MVC\\CI Plateform\\CI Plateform\\wwwroot\\css\\Registation.css",
       "SourceId": "CI Plateform",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\New folder\\CI PLATEFORM\\MVC\\CI Plateform\\CI Plateform\\wwwroot\\",
       "BasePath": "_content/CI Plateform",
-      "RelativePath": "css/registation.css",
+      "RelativePath": "css/Registation.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1986,7 +1986,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\registation.css"
+      "OriginalItemSpec": "wwwroot\\css\\Registation.css"
     },
     {
       "Identity": "E:\\New folder\\CI PLATEFORM\\MVC\\CI Plateform\\CI Plateform\\wwwroot\\css\\site.css",

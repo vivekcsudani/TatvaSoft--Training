@@ -7,6 +7,8 @@
     const view = document.getElementsByClassName('card');
     const page = document.getElementsByClassName('page-item');
 
+    const img=document.getElementsByClassName('listimg');
+
     listViewButton.onclick = function () {
         for (let i = 0; i < 9; i++) {
             list[i].classList.remove('col-12');
@@ -17,7 +19,8 @@
             listViewButton.classList.add('active');
             gridViewButton.classList.remove('active');
         }
-    }
+       
+     }
 
     gridViewButton.onclick = function () {
         for (let i = 0; i < 9; i++) {
@@ -31,4 +34,6 @@
         }
     }
 };
+
+// volentierpage
 

@@ -12,7 +12,12 @@
 .mySlides-fade {
     position: absolute;
 }
-
+.dotslide {
+    position: absolute;
+    bottom: 8px;
+    justify-content: center;
+    padding-left: 50%;
+}
 .btn1 {
     border: none;
     outline: none;
@@ -80,7 +85,7 @@ a {
     font-size: 15px;
     padding: 10px 100px;
     position: absolute;
-    bottom: 8px;
+    bottom: 30px;
     width: 100%;
     text-align: left;
 }
@@ -134,9 +139,6 @@ a {
     }
 }
 
-.autoage {
-    height: 100vh;
-}
 
 @media screen and (max-width:992px) {
     .autoage {
