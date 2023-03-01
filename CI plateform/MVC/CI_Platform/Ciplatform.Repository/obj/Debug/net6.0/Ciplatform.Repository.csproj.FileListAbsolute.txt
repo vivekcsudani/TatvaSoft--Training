@@ -1,0 +1,12 @@
+E:\New folder\CI PLATEFORM\MVC\CI_Platform\Ciplatform.Repository\bin\Debug\net6.0\Ciplatform.Repository.deps.json
+E:\New folder\CI PLATEFORM\MVC\CI_Platform\Ciplatform.Repository\bin\Debug\net6.0\Ciplatform.Repository.dll
+E:\New folder\CI PLATEFORM\MVC\CI_Platform\Ciplatform.Repository\bin\Debug\net6.0\Ciplatform.Repository.pdb
+E:\New folder\CI PLATEFORM\MVC\CI_Platform\Ciplatform.Repository\obj\Debug\net6.0\Ciplatform.Repository.csproj.AssemblyReference.cache
+E:\New folder\CI PLATEFORM\MVC\CI_Platform\Ciplatform.Repository\obj\Debug\net6.0\Ciplatform.Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\New folder\CI PLATEFORM\MVC\CI_Platform\Ciplatform.Repository\obj\Debug\net6.0\Ciplatform.Repository.AssemblyInfoInputs.cache
+E:\New folder\CI PLATEFORM\MVC\CI_Platform\Ciplatform.Repository\obj\Debug\net6.0\Ciplatform.Repository.AssemblyInfo.cs
+E:\New folder\CI PLATEFORM\MVC\CI_Platform\Ciplatform.Repository\obj\Debug\net6.0\Ciplatform.Repository.csproj.CoreCompileInputs.cache
+E:\New folder\CI PLATEFORM\MVC\CI_Platform\Ciplatform.Repository\obj\Debug\net6.0\Ciplatform.Repository.dll
+E:\New folder\CI PLATEFORM\MVC\CI_Platform\Ciplatform.Repository\obj\Debug\net6.0\refint\Ciplatform.Repository.dll
+E:\New folder\CI PLATEFORM\MVC\CI_Platform\Ciplatform.Repository\obj\Debug\net6.0\Ciplatform.Repository.pdb
+E:\New folder\CI PLATEFORM\MVC\CI_Platform\Ciplatform.Repository\obj\Debug\net6.0\ref\Ciplatform.Repository.dll
