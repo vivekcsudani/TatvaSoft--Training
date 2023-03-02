@@ -8,5 +8,7 @@ namespace Ciplatform.Repository.Interface
 {
     internal class IUserRepository
     {
+
+
     }
 }

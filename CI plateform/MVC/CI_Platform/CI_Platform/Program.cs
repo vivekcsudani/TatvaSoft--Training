@@ -1,7 +1,12 @@
+using Ciplatform.Entities.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<CiContext>(options => options.UseSqlServer(
+builder.Configuration.GetConnectionString("DefaultConnections")));
 
 var app = builder.Build();
 

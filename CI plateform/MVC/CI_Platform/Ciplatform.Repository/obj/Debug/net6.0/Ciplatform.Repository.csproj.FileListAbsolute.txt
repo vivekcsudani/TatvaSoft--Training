@@ -10,3 +10,8 @@ E:\New folder\CI PLATEFORM\MVC\CI_Platform\Ciplatform.Repository\obj\Debug\net6.
 E:\New folder\CI PLATEFORM\MVC\CI_Platform\Ciplatform.Repository\obj\Debug\net6.0\refint\Ciplatform.Repository.dll
 E:\New folder\CI PLATEFORM\MVC\CI_Platform\Ciplatform.Repository\obj\Debug\net6.0\Ciplatform.Repository.pdb
 E:\New folder\CI PLATEFORM\MVC\CI_Platform\Ciplatform.Repository\obj\Debug\net6.0\ref\Ciplatform.Repository.dll
+E:\New folder\CI PLATEFORM\MVC\CI_Platform\Ciplatform.Repository\bin\Debug\net6.0\Ciplatform.Repository.runtimeconfig.json
+E:\New folder\CI PLATEFORM\MVC\CI_Platform\Ciplatform.Repository\obj\Debug\net6.0\Ciplatform.Repository.genruntimeconfig.cache
+E:\New folder\CI PLATEFORM\MVC\CI_Platform\Ciplatform.Repository\bin\Debug\net6.0\Ciplatform.Entities.dll
+E:\New folder\CI PLATEFORM\MVC\CI_Platform\Ciplatform.Repository\bin\Debug\net6.0\Ciplatform.Entities.pdb
+E:\New folder\CI PLATEFORM\MVC\CI_Platform\Ciplatform.Repository\obj\Debug\net6.0\Ciplatform.Repository.csproj.CopyComplete

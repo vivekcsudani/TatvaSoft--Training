@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel;
 
 namespace Ciplatform.Entities.Models;
 
@@ -11,8 +13,12 @@ public partial class User
 
     public string? SecondName { get; set; }
 
+    [DisplayName("Email Address")]
+    [Required(ErrorMessage = "Email is Required")]
     public string Email { get; set; } = null!;
 
+    [Required(ErrorMessage = "Password is Required")]
+    [DataType(DataType.Password)]
     public string Password { get; set; } = null!;
 
     public long PhoneNumber { get; set; }

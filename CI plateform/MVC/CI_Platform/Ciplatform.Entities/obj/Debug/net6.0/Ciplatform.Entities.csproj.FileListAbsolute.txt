@@ -10,3 +10,5 @@ E:\New folder\CI PLATEFORM\MVC\CI_Platform\Ciplatform.Entities\obj\Debug\net6.0\
 E:\New folder\CI PLATEFORM\MVC\CI_Platform\Ciplatform.Entities\obj\Debug\net6.0\refint\Ciplatform.Entities.dll
 E:\New folder\CI PLATEFORM\MVC\CI_Platform\Ciplatform.Entities\obj\Debug\net6.0\Ciplatform.Entities.pdb
 E:\New folder\CI PLATEFORM\MVC\CI_Platform\Ciplatform.Entities\obj\Debug\net6.0\ref\Ciplatform.Entities.dll
+E:\New folder\CI PLATEFORM\MVC\CI_Platform\Ciplatform.Entities\bin\Debug\net6.0\Ciplatform.Entities.runtimeconfig.json
+E:\New folder\CI PLATEFORM\MVC\CI_Platform\Ciplatform.Entities\obj\Debug\net6.0\Ciplatform.Entities.genruntimeconfig.cache
