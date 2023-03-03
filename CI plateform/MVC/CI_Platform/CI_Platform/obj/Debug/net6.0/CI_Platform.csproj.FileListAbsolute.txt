@@ -158,3 +158,6 @@ E:\New folder\CI PLATEFORM\MVC\CI_Platform\CI_Platform\bin\Debug\net6.0\runtimes
 E:\New folder\CI PLATEFORM\MVC\CI_Platform\CI_Platform\bin\Debug\net6.0\runtimes\win-x86\native\sqlceme40.dll
 E:\New folder\CI PLATEFORM\MVC\CI_Platform\CI_Platform\bin\Debug\net6.0\runtimes\win-x86\native\sqlceqp40.dll
 E:\New folder\CI PLATEFORM\MVC\CI_Platform\CI_Platform\bin\Debug\net6.0\runtimes\win-x86\native\sqlcese40.dll
+E:\New folder\CI PLATEFORM\MVC\CI_Platform\CI_Platform\bin\Debug\net6.0\MailKit.dll
+E:\New folder\CI PLATEFORM\MVC\CI_Platform\CI_Platform\bin\Debug\net6.0\MimeKit.dll
+E:\New folder\CI PLATEFORM\MVC\CI_Platform\CI_Platform\bin\Debug\net6.0\BouncyCastle.Crypto.dll

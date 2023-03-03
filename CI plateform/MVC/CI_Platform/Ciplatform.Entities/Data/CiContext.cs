@@ -575,11 +575,9 @@ public partial class CiContext : DbContext
 
         modelBuilder.Entity<PasswordReset>(entity =>
         {
-            entity
-                .HasNoKey()
-                .ToTable("password_reset");
+            entity.HasKey(e => e.Id).HasName("PK__password__3214EC073067877B");
 
-            entity.HasIndex(e => e.Email, "UQ__password__A9D10534DCB53798").IsUnique();
+            entity.ToTable("password_reset");
 
             entity.Property(e => e.CreatedAt)
                 .HasPrecision(0)

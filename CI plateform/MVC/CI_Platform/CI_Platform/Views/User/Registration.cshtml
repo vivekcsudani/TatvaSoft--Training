@@ -1,8 +1,6 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿
+@model Ciplatform.Entities.Models.User
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,7 +46,7 @@
                         <div class="mySlides fade">
 
                             <img src="~/Assets/Grow-Trees-On-the-path-to-environment-sustainability-login.png" style="width:100%;
-                  object-fit: fill;" class="autoage imgg">
+                  object-fit: fill;" class="autoage ">
                             <div class="text">
                                 <h3>Sed ut perspiciatis unde omnis iste natus voluptatem.</h3>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias accusantium nam, voluptates magnam minus unde distinctio soluta, placeat ipsum voluptas tempora, reiciendis animi dolore voluptatibus explicabo deserunt necessitatibus eligendi aut.
@@ -60,7 +58,7 @@
                         <div class="mySlides fade">
 
                             <img src="~/Assets/Grow-Trees-On-the-path-to-environment-sustainability-login.png" style="width:100%;
-                            object-fit: fill;" class="autoage imgg">
+                            object-fit: fill;" class="autoage ">
                             <div class="text">
                                 <h3>Sed ut perspiciatis unde omnis iste natus voluptatem.</h3>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias accusantium nam, voluptates magnam minus unde distinctio soluta, placeat ipsum voluptas tempora, reiciendis animi dolore voluptatibus explicabo deserunt necessitatibus eligendi aut.
@@ -81,48 +79,54 @@
 
                 <div class="col-lg-4 my-auto">
 
-                    <form action="" style="text-size-adjust">
+                    <form asp-action="Registration" asp-controller="User" method="post" style="text-size-adjust">
                         <div class="form-row">
                             <div class="col-log-8">
                                 <span>First name</span><br>
-                                <input type="email" placeholder="enter First name" class="form-control my-2 p-2">
+                                <input asp-for="FirstName" type="text" placeholder="enter First name" class="form-control my-1 p-2">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-log-8">
                                 <span>Last name</span><br>
-                                <input type="email" placeholder="enter Last name" class="form-control my-2 p-2">
+                                <input asp-for="SecondName" type="text" placeholder="enter Last name" class="form-control my-2 p-2">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-log-8">
                                 <span>Phone number</span><br>
-                                <input type="email" placeholder="enter your Phone number" class="form-control my-2 p-2">
+                                <input asp-for="PhoneNumber" type="tel" placeholder="enter your Phone number" class="form-control my-2 p-2">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-log-8">
                                 <span>Email Address</span><br>
-                                <input type="email" placeholder="enter your email" class="form-control my-2 p-2">
+                                <input asp-for="Email" type="email" placeholder="enter your email" class="form-control my-2 p-2">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-log-8">
                                 <span>Password</span><br>
-                                <input type="password" placeholder="enter password" class="form-control my-3 p-2">
+                                <input asp-for="Password" type="password" placeholder="enter password" class="form-control my-3 p-2">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-log-8">
                                 <span>Conform Password</span><br>
-                                <input type="email" placeholder="enter Conform Password" class="form-control my-2 p-2">
+                                <input type="password" placeholder="enter Conform Password" class="form-control my-2 p-2">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-log-8">
-                                <button type="button" class="btn1 mt-3 mb-3"> Register</button>
+                                <button type="submit" class="btn1 mt-3 mb-3"> Register</button>
                             </div>
                         </div>
+
+                        <div class="text-center text-danger mt-2 " id="tempdt">
+                            @TempData["Enter"]
+                        </div>
+                        
+
                         <div class="lost">
                             <a asp-controller="User" asp-action="Forgot" class="link " style="text-decoration: none;color: #414141;">Lost your password?</a>
                         </div>

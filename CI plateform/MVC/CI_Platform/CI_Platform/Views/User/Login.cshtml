@@ -1,8 +1,4 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿
 @model Ciplatform.Entities.Models.User
 
 
@@ -99,18 +95,18 @@
                             <button type="submit" class="butten mt-2 mb-3"> Login</button>
                         </div>
                     </div>
-                    <div class="text-center text-danger mt-2">
+                    <div class="text-center text-danger mt-2 " id="tempdt" >
                         @TempData["Error"]
                     </div>
 
 
                     <div class="lost">
-                        <a class="link " asp-controller="User" asp-action="Forgot" style="text-decoration: none;color: #414141;">Lost your password?</a>
+                        <a class="link " asp-controller="User" asp-action="ForgotPassword" style="text-decoration: none;color: #414141;">Lost your password?</a>
                     </div>
 
                     <div class="creat">
                         <p>Don’t have an account?</p>
-                        <p><a asp-controller="User" asp-action="Registation" style="text-decoration: none; " class="autoset">Create an account</a></p>
+                        <p><a asp-controller="User" asp-action="Registration" style="text-decoration: none; " class="autoset">Create an account</a></p>
                     </div>
                     <div class="policy">
                         <a href="" style="text-decoration: none;color:#414141;">Privacy Policy</a>
@@ -141,8 +137,15 @@
           dots[slideIndex-1].className += " active";
           setTimeout(showSlides, 3000);
         }
+
+
     </script>
 
+    <script type="text/javascript">
+        $(function () {
+            $('#tempdt').hide(1000);
+        });
+    </script>
 
 </body>
 </html>
