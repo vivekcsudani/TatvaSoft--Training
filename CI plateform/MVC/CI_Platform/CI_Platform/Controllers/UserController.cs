@@ -131,7 +131,7 @@ namespace CI_Platform.Controllers
 
                 using var smtp = new SmtpClient();
                 smtp.Connect("smtp.gmail.com", 587, SecureSocketOptions.StartTls);
-                smtp.Authenticate("vcw159@gmail.com", "dllzsofxnvgbipxf");
+                smtp.Authenticate(email,tokan);
                 smtp.Send(email);
                 smtp.Disconnect(true);
 
